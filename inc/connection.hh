@@ -17,8 +17,8 @@ private:
 	static int number;
 	int time;
 	int ID;
-	tram_stop *stop1, *stop2;
-	line trams[];
+	tram_stop *stop1, *stop2; //dobrze byłoby zamienić na inteligentne wskaźniki
+	int trams[];
 
 
 public:

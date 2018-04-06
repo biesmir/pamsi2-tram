@@ -3,6 +3,9 @@
  *
  *  Created on: 3 kwi 2018
  *      Author: Jakub Cebulski
+ *
+ *      plik do usunięcia
+ *
  */
 
 #ifndef INC_LINIA_HH_
