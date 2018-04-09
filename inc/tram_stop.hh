@@ -22,6 +22,11 @@ private:
 
 public:
  tram_stop(int ID1, int ID2, std::string _name);
+
+
+ bool operator == (int ID);
+
+
 };
 
 
