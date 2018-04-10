@@ -21,7 +21,7 @@ private:
 
 public:
 
-	void add_stop(int ID1, int ID2, std::string name);
+	void add_stop(std::string name);
 	bool add_connection(int ID1, int ID2, int time, int line);
 
 	void make_random_graph(int size);

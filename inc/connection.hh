@@ -9,29 +9,30 @@
 #define INC_POLACZENIE_HH_
 
 #include "./line.hh"
+#include "tram_stop.hh"
 class tram_stop;
 
 class connection{
 private:
 
-	static int number;
+//	static int number; //current number of connections
 	int time;
 	int ID;
-	tram_stop *stop1, *stop2; //dobrze byłoby zamienić na inteligentne wskaźniki
+	std::shared_ptr<tram_stop> stop1, stop2;
 	int trams[];
 
 
 public:
 
-connection(int _time, int linie[],tram_stop *_stop1,tram_stop *_stop2)
-:time(_time), ID(number++), stop1(_stop1), stop2(_stop2)
+/*connection(int _time, int linie[],std::shared_ptr<tram_stop> _stop1,std::shared_ptr<tram_stop> _stop2)
+:time(_time), ID(number), stop1(_stop1), stop2(_stop2)
 
 {
 
-}
+}*/
 
-connection(int _time, int linia,tram_stop *_stop1,tram_stop *_stop2)
-:time(_time), ID(number++), stop1(_stop1), stop2(_stop2)
+connection(int _ID, int _time, int linia,std::shared_ptr<tram_stop> _stop1, std::shared_ptr<tram_stop> _stop2)
+:time(_time), ID(_ID), stop2(_stop2)
 
 {
 

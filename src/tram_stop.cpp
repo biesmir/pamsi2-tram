@@ -11,17 +11,30 @@
 
 
 
-tram_stop::tram_stop(int _ID1, int _ID2, std::string _name)
-:ID1(_ID1),
- ID2(_ID2),
+tram_stop::tram_stop(int _ID, std::string _name)
+:ID(_ID),
  name(_name)
 {
-std::cout<<"bus stop created"<<std::endl; //zakomentuj jeżeli będzie przeszkadzać, póki co powinno się przydać
 }
 
 
-bool tram_stop::operator == (int ID){
-	if(ID==this->ID1||ID==this->ID2)
+bool tram_stop::operator == (int _ID){
+	if(_ID==this->ID)
 		return 1;
 	else return 0;
+}
+
+
+
+bool tram_stop::add_connection(unsigned short int _time, int _line, std::shared_ptr<tram_stop> next){
+	if(_line<-1||_line>40){  	//add max tram number there
+		std::cerr<<"błąd dodawania połączenia: błędny numer linii"<<std::endl;
+		return 0;
+	}
+
+		std::shared_ptr<connection> tmp_ptr = std::make_shared<connection> ((this->get_ID() * 1000 + next->get_ID()),_time, _line, this->shared_from_this(), next);
+	conn.push_back(tmp_ptr);
+	next->add_connection(tmp_ptr); //adding connection to second stop list of connections
+	return 1;
+
 }
