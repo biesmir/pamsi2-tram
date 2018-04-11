@@ -8,23 +8,26 @@
 #ifndef INC_GRAPH_HH_
 #define INC_GRAPH_HH_
 
-#include <list>
+#include <vector>
 #include <memory>
 #include <iostream>
+#include <cstdlib>
 
 #include "tram_stop.hh"
 
 class graph{
 private:
 	int size;
-	std::list< std::shared_ptr<tram_stop> > stops;
+	std::vector< std::shared_ptr<tram_stop> > stops;
 
 public:
 
 	void add_stop(std::string name);
-	bool add_connection(int ID1, int ID2, int time, int line);
+	bool add_connection(int ID1, int ID2, unsigned short int time, int line);
 
-	void make_random_graph(int size);
+	void make_random_graph(int _size);
+
+	void all_stops(std::ostream&);
 
 	graph():size(0){
 	}

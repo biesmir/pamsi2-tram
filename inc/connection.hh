@@ -8,7 +8,7 @@
 #ifndef INC_POLACZENIE_HH_
 #define INC_POLACZENIE_HH_
 
-#include "./line.hh"
+
 #include "tram_stop.hh"
 class tram_stop;
 
@@ -32,7 +32,7 @@ public:
 }*/
 
 connection(int _ID, int _time, int linia,std::shared_ptr<tram_stop> _stop1, std::shared_ptr<tram_stop> _stop2)
-:time(_time), ID(_ID), stop2(_stop2)
+:time(_time), ID(_ID), stop1(_stop1), stop2(_stop2)
 
 {
 

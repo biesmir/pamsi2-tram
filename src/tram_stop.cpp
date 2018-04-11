@@ -34,7 +34,16 @@ bool tram_stop::add_connection(unsigned short int _time, int _line, std::shared_
 
 		std::shared_ptr<connection> tmp_ptr = std::make_shared<connection> ((this->get_ID() * 1000 + next->get_ID()),_time, _line, this->shared_from_this(), next);
 	conn.push_back(tmp_ptr);
-	next->add_connection(tmp_ptr); //adding connection to second stop list of connections
+		next->add_connection(tmp_ptr); //adding connection to second stop list of connections
 	return 1;
 
+}
+
+
+void make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_stop> begin ,std::shared_ptr<tram_stop> end){
+
+	std::shared_ptr<connection> tmp_ptr = std::make_shared<connection> ((begin->get_ID() * 1000 + end->get_ID()),_time, _line, begin, end);
+
+	begin->add_connection(tmp_ptr);
+	end->add_connection(tmp_ptr);
 }

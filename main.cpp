@@ -10,7 +10,9 @@
 
 int main(){
 
-
+graph czy_dojade;
+czy_dojade.make_random_graph(6);
+czy_dojade.all_stops(std::cout);
 return 0;
 }
 
