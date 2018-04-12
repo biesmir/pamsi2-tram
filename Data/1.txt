@@ -1,0 +1,64 @@
+24416 BISKUPIN
+ 1 1 24414 Spó³dzielcza
+24414 Spó³dzielcza
+ 1 1 24416 BISKUPIN
+ 1 1 24412 Piramowicza
+24412 Piramowicza
+ 1 1 24414 Spó³dzielcza
+ 1 1 24410 Che³moñskiego
+24410 Che³moñskiego
+ 1 1 24412 Piramowicza
+ 1 1 24408 Tramwajowa
+24408 Tramwajowa
+ 1 1 24410 Che³moñskiego
+ 1 1 24404 ZOO
+24404 ZOO
+ 1 1 24408 Tramwajowa
+ 1 1 24402 Hala Stulecia
+24402 Hala Stulecia
+ 1 1 24404 ZOO
+ 1 1 20818 Kliniki
+20818 Kliniki
+ 1 1 24402 Hala Stulecia
+ 1 1 20816 PL. GRUNWALDZKI
+20816 PL. GRUNWALDZKI
+ 1 1 20818 Kliniki
+ 1 1 20854 Piastowska
+20854 Piastowska
+ 1 1 20816 PL. GRUNWALDZKI
+ 1 1 20852 Prusa
+20852 Prusa
+ 1 1 20854 Piastowska
+ 1 1 20670 Wyszyñskiego
+20670 Wyszyñskiego
+ 1 1 20852 Prusa
+ 1 1 20628 Nowowiejska
+20628 Nowowiejska
+ 1 1 20670 Wyszyñskiego
+ 1 1 20666 S³owiañska
+20666 S³owiañska
+ 1 1 20628 Nowowiejska
+ 1 1 20610 DWORZEC NADODRZE
+20610 DWORZEC NADODRZE
+ 1 1 20666 S³owiañska
+ 1 1 20615 DWORZEC NADODRZE
+20615 DWORZEC NADODRZE
+ 1 1 20610 DWORZEC NADODRZE
+ 1 1 20617 Trzebnicka
+20617 Trzebnicka
+ 1 1 20615 DWORZEC NADODRZE
+ 1 1 23013 Broniewskiego
+23013 Broniewskiego
+ 1 1 20617 Trzebnicka
+ 1 1 23015 Kamieñskiego
+23015 Kamieñskiego
+ 1 1 23013 Broniewskiego
+ 1 1 23017 Kêpiñska
+23017 Kêpiñska
+ 1 1 23015 Kamieñskiego
+ 1 1 23019 Wo³owska
+23019 Wo³owska
+ 1 1 23017 Kêpiñska
+ 1 1 23021 POŒWIÊTNE
+23021 POŒWIÊTNE
+ 1 1 23019 Wo³owska
