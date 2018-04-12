@@ -9,6 +9,7 @@
 #define INC_GRAPH_HH_
 
 #include <vector>
+#include <queue>
 #include <memory>
 #include <iostream>
 #include <cstdlib>
@@ -33,6 +34,8 @@ public:
 
 	graph():size(0){
 	}
+
+		std::shared_ptr< std::queue<int> > bfs(int _ID_begin, int _ID_end);
 
 };
 
