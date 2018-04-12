@@ -53,3 +53,18 @@ void graph::all_stops(std::ostream& strm){
 		strm<< this->stops[i]->get_name()<<std::endl;
 }
 
+bool graph::add_connection(std::string _stop1, std::string _stop2, unsigned short int _time, int _line){
+	int j,i;
+	i=j=0;
+
+	while( this->stops[i]->get_name() != _stop1  &&  i<=size) //do to
+		i++;
+
+	while( this->stops[j]->get_name() != _stop2  &&  j<=size)
+		j++;
+
+
+	make_connection(_time, _line, this->stops[i], this->stops[j]);
+
+	return 1;
+}
