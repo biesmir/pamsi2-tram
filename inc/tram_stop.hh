@@ -45,6 +45,8 @@ std::string get_name(){
 	return this->name;
 }
 
+int get_connection(int i);
+
 };
 
 

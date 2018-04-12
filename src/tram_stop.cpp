@@ -47,3 +47,9 @@ void make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 	begin->add_connection(tmp_ptr);
 	end->add_connection(tmp_ptr);
 }
+
+
+int tram_stop::get_connection(int i){
+	return this->conn[i]->get_second_stop(ID)->get_ID();
+	return 0;
+}
