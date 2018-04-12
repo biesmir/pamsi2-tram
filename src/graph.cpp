@@ -8,7 +8,6 @@
 #include "../inc/graph.hh"
 
 
-<<<<<<< HEAD
 
 void graph::add_stop(std::string name){
 	std::shared_ptr<tram_stop> tmp_ptr = std::make_shared<tram_stop>(size++,name);
@@ -47,17 +46,6 @@ bool graph::add_connection(int ID1, int ID2, unsigned short int _time, int _line
 //std::cout<<size<<std::endl;
 	return 0;
 	//else return 1;
-=======
-/*
- * nie mam pewności czy nie tworzy się podwójna ilość obiektów
- * przydało by się zamienić na inteligentne wskaźniki
- *
- * */
-void graph::add_stop(int ID1, int ID2, std::string name){
-tram_stop * tmp_ptr = new tram_stop(ID1,ID2,name);
-this->stops.push_back(*tmp_ptr);
-size++;
->>>>>>> parent of b7e225f... started creating method for generating random graph
 }
 
 void graph::all_stops(std::ostream& strm){

@@ -16,7 +16,6 @@ tram_stop::tram_stop(int _ID, std::string _name)
  name(_name)
 {
 }
-<<<<<<< HEAD
 
 
 bool tram_stop::operator == (int _ID){
@@ -48,5 +47,3 @@ void make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 	begin->add_connection(tmp_ptr);
 	end->add_connection(tmp_ptr);
 }
-=======
->>>>>>> parent of b7e225f... started creating method for generating random graph

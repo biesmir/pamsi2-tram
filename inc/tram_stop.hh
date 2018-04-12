@@ -24,7 +24,6 @@ private:
 	std::vector< std::shared_ptr<connection> > conn;
 
 public:
-<<<<<<< HEAD
  tram_stop(int ID, std::string _name);
  tram_stop();
 
@@ -46,9 +45,6 @@ std::string get_name(){
 	return this->name;
 }
 
-=======
- tram_stop(int ID1, int ID2, std::string _name);
->>>>>>> parent of b7e225f... started creating method for generating random graph
 };
 
 
