@@ -10,6 +10,11 @@
 
 #include "graph.hh"
 
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+
 int parsing(graph & Graph, std::string file_name);
 
 #endif /* INC_PARSING_HH_ */
