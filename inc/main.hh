@@ -10,7 +10,6 @@
 
 #include <iostream>
 
-#include "./line.hh"
 #include "graph.hh"
 
 
