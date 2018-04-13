@@ -8,10 +8,47 @@
 
 #include "../inc/parsing.hh"
 
+using namespace std;
+
 
 int parsing(graph & Graph, std::string file_name){
+ifstream plik;
+plik.open("1.txt");
 
+if(plik.is_open())
+	{
+	    string word,word2,time,line;
+	    plik>>word;	    plik>>word2;
+	    add_stop(word2);  //dodanie pierwszego przystanku
+        plik>>line; // linia
+        plik>>time; // czas
+        plik>>word; // id
+        plik>>word; // nazwa
+        add_conection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
 
+        while(plik>>word)
+        {
+            if (word=="X") {return 1;}
+            plik>>word2;
+            add_stop(word2);
+            plik>>line; // linia
+            plik>>time; // czas
+            plik>>word; // id
+            plik>>word; // nazwa
+            add_conection(word2,word,time,line);
 
-	return 0;
+            plik>>line; // linia
+            plik>>time; // czas
+            plik>>word; // id
+            plik>>word; // nazwa
+            add_conection(word2,word,time,line);
+        }
+
+	}
+else
+    {
+		cout<<"Nie uda³o siê otworzyæ pliku";
+    }
+
+return 0;
 }
