@@ -2,3 +2,5 @@
 *.o
 
 Debug/pamsi2
+
+doc/\.uml\.vpp\.lck
