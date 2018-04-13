@@ -19,29 +19,29 @@ if(plik.is_open())
 	{
 	    string word,word2,time,line;
 	    plik>>word;	    plik>>word2;
-	    add_stop(word2);  //dodanie pierwszego przystanku
+	    Graph.add_stop(word2);  //dodanie pierwszego przystanku
         plik>>line; // linia
         plik>>time; // czas
         plik>>word; // id
         plik>>word; // nazwa
-        add_conection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
+        Graph.add_conection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
 
         while(plik>>word)
         {
             if (word=="X") {return 1;}
             plik>>word2;
-            add_stop(word2);
+            Graph.add_stop(word2);
             plik>>line; // linia
             plik>>time; // czas
             plik>>word; // id
             plik>>word; // nazwa
-            add_conection(word2,word,time,line);
+            Graph.add_conection(word2,word,time,line);
 
             plik>>line; // linia
             plik>>time; // czas
             plik>>word; // id
             plik>>word; // nazwa
-            add_conection(word2,word,time,line);
+            Graph.add_conection(word2,word,time,line);
         }
 
 	}
