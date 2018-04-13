@@ -19,7 +19,7 @@ class tram_stop;
 class connection{
 private:
 
-//	static int number; //current number of connections
+
 	int time;
 	int ID;
 	std::shared_ptr<tram_stop> stop1, stop2;

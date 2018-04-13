@@ -11,11 +11,11 @@
 int main(){
 
 
-//graph czy_dojade;
-//czy_dojade.make_random_graph(6);
-//czy_dojade.all_stops(std::cout);
+graph czy_dojade;
+czy_dojade.make_random_graph(9);
+czy_dojade.all_stops(std::cout);
 
-	std::cout<<"123";
+
 
 	return 0;
 }
