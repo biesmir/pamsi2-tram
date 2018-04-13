@@ -27,7 +27,7 @@ bool tram_stop::operator == (int _ID){
 
 
 bool tram_stop::add_connection(unsigned short int _time, int _line, std::shared_ptr<tram_stop> next){
-	if(_line<-1||_line>40){  	//add max tram number there
+	if(_line<-1||_line>33){
 		std::cerr<<"błąd dodawania połączenia: błędny numer linii"<<std::endl;
 		return 0;
 	}
