@@ -20,10 +20,10 @@ class connection{
 private:
 
 
-	int time;
-	int ID;
-	std::shared_ptr<tram_stop> stop1, stop2;
-	int stop1_ID, stop2_ID;
+	const int time;
+	const int ID;
+	const std::shared_ptr<tram_stop> next;
+	const int next_stop_ID;
 	int trams[];
 
 
@@ -36,22 +36,18 @@ public:
 
 }*/
 
-connection(int _ID, int _time, int linia,std::shared_ptr<tram_stop> _stop1, std::shared_ptr<tram_stop> _stop2)
-:time(_time), ID(_ID), stop1(_stop1), stop2(_stop2)
+connection(int _ID, int _time, int _line,std::shared_ptr<tram_stop> _stop, int _next_ID)
+:time(_time), ID(_ID), next(_stop), next_stop_ID(_next_ID)
 
 {
-
+	trams[0]=_line;
 }
 
-connection(int _ID, int _time, int linia,std::shared_ptr<tram_stop> _stop1, std::shared_ptr<tram_stop> _stop2, int ID_stop1, int ID_stop2)
-:time(_time), ID(_ID), stop1(_stop1), stop2(_stop2),stop1_ID(ID_stop1),stop2_ID(ID_stop2)
 
-{
 
+std::shared_ptr<tram_stop> get_second_stop(int _ID){
+	return next;
 }
-
-std::shared_ptr<tram_stop> get_second_stop(int _ID);
-
 };
 
 #endif /* INC_POLACZENIE_HH_ */

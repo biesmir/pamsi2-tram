@@ -26,30 +26,26 @@ bool tram_stop::operator == (int _ID){
 
 
 
-bool tram_stop::add_connection(unsigned short int _time, int _line, std::shared_ptr<tram_stop> next){
+
+
+
+bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_stop> begin ,std::shared_ptr<tram_stop> end){
+
 	if(_line<-1||_line>33){
 		std::cerr<<"błąd dodawania połączenia: błędny numer linii"<<std::endl;
 		return 0;
 	}
-
-		std::shared_ptr<connection> tmp_ptr = std::make_shared<connection> ((this->get_ID() * 1000 + next->get_ID()),_time, _line, this->shared_from_this(), next);
-	conn.push_back(tmp_ptr);
-		next->add_connection(tmp_ptr); //adding connection to second stop list of connections
+	connection tmp1((begin->get_ID() * 1000 + end->get_ID()),_time, _line, end, end->get_ID());
+	connection tmp2((end->get_ID() * 1000 + begin->get_ID()),_time, _line, begin, begin->get_ID());
+	begin->conn.push_back(tmp1);
+	begin->conn.push_back(tmp2);
 	return 1;
 
 }
 
-
-void make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_stop> begin ,std::shared_ptr<tram_stop> end){
-
-	std::shared_ptr<connection> tmp_ptr = std::make_shared<connection> ((begin->get_ID() * 1000 + end->get_ID()),_time, _line, begin, end);
-
-	begin->add_connection(tmp_ptr);
-	end->add_connection(tmp_ptr);
-}
-
-
+/*
 int tram_stop::get_connection(int i){
 	return this->conn[i]->get_second_stop(ID)->get_ID();
 	return 0;
 }
+*/

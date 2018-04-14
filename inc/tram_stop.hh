@@ -21,7 +21,7 @@ class tram_stop: std::enable_shared_from_this<tram_stop>{
 private:
 	const int ID;
 	const std::string name;
-	std::vector< std::shared_ptr<connection> > conn;
+	std::vector< connection > conn;
 
 public:
  tram_stop(int ID, std::string _name);
@@ -29,13 +29,8 @@ public:
 
  bool operator == (int _ID);
 
- bool add_connection(unsigned short int _time, int line, std::shared_ptr<tram_stop> next);
+friend bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_stop> begin ,std::shared_ptr<tram_stop> end);
 
- void add_connection(std::shared_ptr<connection> new_connection){
- 	this->conn.push_back(new_connection);
- }
-
- friend void make_connection(unsigned short int _time, int line,std::shared_ptr<tram_stop> start ,std::shared_ptr<tram_stop> stop);
 
  int get_ID(){
 	 return this->ID;
