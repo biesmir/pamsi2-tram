@@ -40,7 +40,8 @@ std::string get_name(){
 	return this->name;
 }
 
-int get_connection(int i);
+int get_connection_ID(int i);
+std::shared_ptr<tram_stop> get_connection(int i);
 
 };
 

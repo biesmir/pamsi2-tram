@@ -43,9 +43,11 @@ bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 
 }
 
-/*
-int tram_stop::get_connection(int i){
-	return this->conn[i]->get_second_stop(ID)->get_ID();
-	return 0;
+
+std::shared_ptr<tram_stop> tram_stop::get_connection(int i){
+	return this->conn[i].get_second_stop();
 }
-*/
+
+int tram_stop::get_connection_ID(int i){
+	return this->conn[i].get_second_stop()->get_ID();
+}
