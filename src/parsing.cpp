@@ -13,10 +13,11 @@ using namespace std;
 
 int parsing(graph & Graph, std::string file_name){
 ifstream plik;
-plik.open("1.txt");
+plik.open(file_name);
 
 if(plik.is_open())
 	{
+
 	    string word, word2;
 		unsigned short int time;
 	    int line;

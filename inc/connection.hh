@@ -24,7 +24,7 @@ private:
 	const int ID;
 	const std::shared_ptr<tram_stop> next;
 	const int next_stop_ID;
-	int trams[];
+	bool trams[35];
 
 
 public:
@@ -40,7 +40,7 @@ connection(int _ID, int _time, int _line,std::shared_ptr<tram_stop> _stop, int _
 :time(_time), ID(_ID), next(_stop), next_stop_ID(_next_ID)
 
 {
-	trams[0]=_line;
+	trams[_line]=true;
 }
 
 

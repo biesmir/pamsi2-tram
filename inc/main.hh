@@ -11,6 +11,7 @@
 #include <iostream>
 
 #include "graph.hh"
+#include "parsing.hh"
 
 
 #endif /* INC_MAIN_HH_ */

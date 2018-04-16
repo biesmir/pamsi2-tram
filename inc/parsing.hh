@@ -12,7 +12,7 @@
 
 #include <iostream>
 #include <fstream>
-#include <string>
+//#include <string>
 #include <cstdlib>
 
 int parsing(graph & Graph, std::string file_name);

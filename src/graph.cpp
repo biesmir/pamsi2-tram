@@ -23,7 +23,7 @@ void graph::make_random_graph(int _size){
 	}
 	for(int i=0;i<_size*2;i++){
 
-		this->add_connection(i/2,rand()%(size),9,40);
+		this->add_connection(i/2,rand()%(size),9,20);
 
 	}
 
