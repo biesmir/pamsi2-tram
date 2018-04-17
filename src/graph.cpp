@@ -21,9 +21,9 @@ void graph::make_random_graph(int _size){
 		this->add_stop(city[i]);
 
 	}
-	for(int i=0;i<_size*2;i++){
+	for(int i=0;i<_size-1;i++){
 
-		this->add_connection(i/2,rand()%(size),9,20);
+		this->add_connection(i,i+1,9,20);
 
 	}
 

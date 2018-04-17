@@ -25,7 +25,7 @@ if(plik.is_open())
 	    Graph.add_stop(word2);  //dodanie pierwszego przystanku
         plik>>line; // linia
         plik>>time; // czas
-        plik>>word; // id
+        plik>>word; // id 	//dwa razy do word??
         plik>>word; // nazwa
         Graph.add_connection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
 

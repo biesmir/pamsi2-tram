@@ -12,10 +12,10 @@ int main(){
 
 
 graph czy_dojade;
-parsing(czy_dojade, "/tmp/1.txt");
-
+//parsing(czy_dojade, "/tmp/1.txt");
+czy_dojade.make_random_graph(9);
 czy_dojade.all_stops(std::cout);
-//czy_dojade.bfs(3,1);
+czy_dojade.bfs(3,1);
 
 
 	return 0;
