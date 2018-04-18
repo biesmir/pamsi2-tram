@@ -1,0 +1,131 @@
+23204 OSOBOWICE
+ 14 1 23202 MostMilenijny
+23202 MostMilenijny
+ 14 1 23204 OSOBOWICE
+ 14 1 23008 OSOBOWICKA(Cmentarz)
+23008 OSOBOWICKA(Cmentarz)
+ 14 1 23202 MostMilenijny
+ 14 1 23006 OSOBOWICKA(CmentarzII)
+23006 OSOBOWICKA(CmentarzII)
+ 14 1 23008 OSOBOWICKA(Cmentarz)
+ 14 1 23004 Serbska(C.K.Agora)
+23004 Serbska(C.K.Agora)
+ 14 1 23006 OSOBOWICKA(CmentarzII)
+ 14 1 23002 mostOsobowicki
+23002 mostOsobowicki
+ 14 1 23004 Serbska(C.K.Agora)
+ 14 1 10606 Kleczkowska
+10606 Kleczkowska
+ 14 1 23002 mostOsobowicki
+ 14 1 10604 PL.STASZICA
+10604 PL.STASZICA
+ 14 1 10606 Kleczkowska
+ 14 1 10602 Pomorska
+10602 Pomorska
+ 14 1 10604 PL.STASZICA
+ 14 1 10006 Rynek
+10006 Rynek
+ 14 1 10602 Pomorska
+ 14 1 10241 NarodoweForumMuzyki
+10241 NarodoweForumMuzyki
+ 14 1 10006 Rynek
+ 14 1 10250 Renoma
+10250 Renoma
+ 14 1 10241 NarodoweForumMuzyki
+ 14 1 10233 Arkady(Capitol)
+10233 Arkady(Capitol)
+ 14 1 10250 Renoma
+ 14 1 11201 Zaolziañska
+11201 Zaolziañska
+ 14 1 10233 Arkady(Capitol)
+ 14 1 11203 Wielka
+11203 Wielka
+ 14 1 11201 Zaolziañska
+ 14 1 11205 Rondo
+11205 Rondo
+ 14 1 11203 Wielka
+ 14 1 11207 Sztabowa
+11207 Sztabowa
+ 14 1 11205 Rondo
+ 14 1 11209 HALLERA
+11209 HALLERA
+ 14 1 11207 Sztabowa
+ 14 1 11451 Gajowicka
+11451 Gajowicka
+ 14 1 11209 HALLERA
+ 14 1 11453 Mielecka
+11453 Mielecka
+ 14 1 11451 Gajowicka
+ 14 1 11651 OjcaBeyzyma
+11651 OjcaBeyzyma
+ 14 1 11453 Mielecka
+ 14 1 11657 AlejaPracy
+11657 AlejaPracy
+ 14 1 11651 OjcaBeyzyma
+ 14 1 11659 FAT
+11659 FAT
+ 14 1 11657 AlejaPracy
+ 14 1 11659 FAT
+11659 FAT
+ 14 1 11659 FAT
+ 14 1 11606 FAT
+11606 FAT
+ 14 1 11659 FAT
+ 14 1 11604 Hutmen
+11604 Hutmen
+ 14 1 11606 FAT
+ 14 1 11602 Bzowa(CentrumZajezdnia)
+11602 Bzowa(CentrumZajezdnia)
+ 14 1 11604 Hutmen
+ 14 1 11406 pl.Srebrny
+11406 pl.Srebrny
+ 14 1 11602 Bzowa(CentrumZajezdnia)
+ 14 1 11404 Stalowa
+11404 Stalowa
+ 14 1 11406 pl.Srebrny
+ 14 1 11402 Pereca
+11402 Pereca
+ 14 1 11404 Stalowa
+ 14 1 10246 Grabiszyñska
+10246 Grabiszyñska
+ 14 1 11402 Pereca
+ 14 1 10244 pl.Legionów
+10244 pl.Legionów
+ 14 1 10246 Grabiszyñska
+ 14 1 10273 pl.Orl¹tLwowskich
+10273 pl.Orl¹tLwowskich
+ 14 1 10244 pl.Legionów
+ 14 1 10451 PL.JANAPAW£AII
+10451 PL.JANAPAW£AII
+ 14 1 10273 pl.Orl¹tLwowskich
+ 14 1 10651 Dmowskiego
+10651 Dmowskiego
+ 14 1 10451 PL.JANAPAW£AII
+ 14 1 10655 Pomorska
+10655 Pomorska
+ 14 1 10651 Dmowskiego
+ 14 1 10603 PL.STASZICA
+10603 PL.STASZICA
+ 14 1 10655 Pomorska
+ 14 1 10605 Kleczkowska
+10605 Kleczkowska
+ 14 1 10603 PL.STASZICA
+ 14 1 23001 mostOsobowicki
+23001 mostOsobowicki
+ 14 1 10605 Kleczkowska
+ 14 1 23003 Serbska(C.K.Agora)
+23003 Serbska(C.K.Agora)
+ 14 1 23001 mostOsobowicki
+ 14 1 23005 OSOBOWICKA(CmentarzII)
+23005 OSOBOWICKA(CmentarzII)
+ 14 1 23003 Serbska(C.K.Agora)
+ 14 1 23007 OSOBOWICKA(Cmentarz)
+23007 OSOBOWICKA(Cmentarz)
+ 14 1 23005 OSOBOWICKA(CmentarzII)
+ 14 1 23201 MostMilenijny
+23201 MostMilenijny
+ 14 1 23007 OSOBOWICKA(Cmentarz)
+ 14 1 23203 OSOBOWICE
+23203 OSOBOWICE
+ 14 1 23201 MostMilenijny
+X

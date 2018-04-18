@@ -1,0 +1,65 @@
+20619 DWORZECNADODRZE
+ 0 1 20609 DWORZECNADODRZE
+20609 DWORZECNADODRZE
+ 0 1 20619 DWORZECNADODRZE
+ 0 1 20665 S³owiañska
+20665 S³owiañska
+ 0 1 20609 DWORZECNADODRZE
+ 0 1 20627 Nowowiejska
+20627 Nowowiejska
+ 0 1 20665 S³owiañska
+ 0 1 20669 Wyszyñskiego
+20669 Wyszyñskiego
+ 0 1 20627 Nowowiejska
+ 0 1 20851 Prusa
+20851 Prusa
+ 0 1 20669 Wyszyñskiego
+ 0 1 20853 Piastowska
+20853 Piastowska
+ 0 1 20851 Prusa
+ 0 1 20824 PL.GRUNWALDZKI
+20824 PL.GRUNWALDZKI
+ 0 1 20853 Piastowska
+ 0 1 20822 mostGrunwaldzki
+20822 mostGrunwaldzki
+ 0 1 20824 PL.GRUNWALDZKI
+ 0 1 20292 Urz¹dWojewódzki
+20292 Urz¹dWojewódzki
+ 0 1 20822 mostGrunwaldzki
+ 0 1 20201 pl.Wróblewskiego
+20201 pl.Wróblewskiego
+ 0 1 20292 Urz¹dWojewódzki
+ 0 1 20261 KomunyParyskiej
+20261 KomunyParyskiej
+ 0 1 20201 pl.Wróblewskiego
+ 0 1 20263 Koœciuszki
+20263 Koœciuszki
+ 0 1 20261 KomunyParyskiej
+ 0 1 20265 Pu³askiego
+20265 Pu³askiego
+ 0 1 20263 Koœciuszki
+ 0 1 20267 DWORZECG£ÓWNY
+20267 DWORZECG£ÓWNY
+ 0 1 20265 Pu³askiego
+ 0 1 10269 Arkady(Capitol)
+10269 Arkady(Capitol)
+ 0 1 20267 DWORZECG£ÓWNY
+ 0 1 10271 pl.Legionów
+10271 pl.Legionów
+ 0 1 10269 Arkady(Capitol)
+ 0 1 10273 pl.Orl¹tLwowskich
+10273 pl.Orl¹tLwowskich
+ 0 1 10271 pl.Legionów
+ 0 1 10451 PL.JANAPAW£AII
+10451 PL.JANAPAW£AII
+ 0 1 10273 pl.Orl¹tLwowskich
+ 0 1 10651 Dmowskiego
+10651 Dmowskiego
+ 0 1 10451 PL.JANAPAW£AII
+ 0 1 10655 Pomorska
+10655 Pomorska
+ 0 1 10651 Dmowskiego
+ 0 1 20661 PL.STASZICA
+20661 PL.STASZICA
+ 0 1 10655 Pomorska
+X

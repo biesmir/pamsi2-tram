@@ -1,0 +1,104 @@
+25014 KSIÊ¯EMA£E
+ 3 1 25012 G³ubczycka
+25012 G³ubczycka
+ 3 1 25014 KSIÊ¯EMA£E
+ 3 1 25010 Karwiñska
+25010 Karwiñska
+ 3 1 25012 G³ubczycka
+ 3 1 25008 ParkWschodni
+25008 ParkWschodni
+ 3 1 25010 Karwiñska
+ 3 1 25006 ArmiiKrajowej
+25006 ArmiiKrajowej
+ 3 1 25008 ParkWschodni
+ 3 1 25004 KRAKOWSKA(Centrumhandlowe)
+25004 KRAKOWSKA(Centrumhandlowe)
+ 3 1 25006 ArmiiKrajowej
+ 3 1 25002 Krakowska
+25002 Krakowska
+ 3 1 25004 KRAKOWSKA(Centrumhandlowe)
+ 3 1 20206 NaNiskich£¹kach
+20206 NaNiskich£¹kach
+ 3 1 25002 Krakowska
+ 3 1 20204 pl.Zgody
+20204 pl.Zgody
+ 3 1 20206 NaNiskich£¹kach
+ 3 1 20202 pl.Wróblewskiego
+20202 pl.Wróblewskiego
+ 3 1 20204 pl.Zgody
+ 3 1 10032 GALERIADOMINIKAÑSKA
+10032 GALERIADOMINIKAÑSKA
+ 3 1 20202 pl.Wróblewskiego
+ 3 1 10001 Œwidnicka
+10001 Œwidnicka
+ 3 1 10032 GALERIADOMINIKAÑSKA
+ 3 1 10003 Rynek
+10003 Rynek
+ 3 1 10001 Œwidnicka
+ 3 1 10401 PL.JANAPAW£AII
+10401 PL.JANAPAW£AII
+ 3 1 10003 Rynek
+ 3 1 10403 M³odychTechników
+10403 M³odychTechników
+ 3 1 10401 PL.JANAPAW£AII
+ 3 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 3 1 10403 M³odychTechników
+ 3 1 10407 ZACHODNIA(Stacja kolejowa)
+10407 ZACHODNIA(Stacja kolejowa)
+ 3 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 3 1 12201 NiedŸwiedzia
+12201 NiedŸwiedzia
+ 3 1 10407 ZACHODNIA(Stacja kolejowa)
+ 3 1 12203 Ma³opanewska
+12203 Ma³opanewska
+ 3 1 12201 NiedŸwiedzia
+ 3 1 12205 Kwiska
+12205 Kwiska
+ 3 1 12203 Ma³opanewska
+ 3 1 12401 DHAstra
+12401 DHAstra
+ 3 1 12205 Kwiska
+ 3 1 12403 ParkZachodni
+12403 ParkZachodni
+ 3 1 12401 DHAstra
+ 3 1 12405 Bajana
+12405 Bajana
+ 3 1 12403 ParkZachodni
+ 3 1 12407 Metalowców
+12407 Metalowców
+ 3 1 12405 Bajana
+ 3 1 12409 PILCZYCE
+12409 PILCZYCE
+ 3 1 12407 Metalowców
+ 3 1 18013 StadionWroc³aw(Lotnicza)
+18013 StadionWroc³aw(Lotnicza)
+ 3 1 12409 PILCZYCE
+ 3 1 18001 Glinianki
+18001 Glinianki
+ 3 1 18013 StadionWroc³aw(Lotnicza)
+ 3 1 18017 Kosmonautów(Nowe¯erniki)
+18017 Kosmonautów(Nowe¯erniki)
+ 3 1 18001 Glinianki
+ 3 1 18003 Grabowa
+18003 Grabowa
+ 3 1 18017 Kosmonautów(Nowe¯erniki)
+ 3 1 18015 Kosmonautów(Szpital)
+18015 Kosmonautów(Szpital)
+ 3 1 18003 Grabowa
+ 3 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
+18005 Kamiennogórska(Oœrodekdlaniewidomych)
+ 3 1 18015 Kosmonautów(Szpital)
+ 3 1 18007 Z³otnicka
+18007 Z³otnicka
+ 3 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
+ 3 1 18009 Wschowska
+18009 Wschowska
+ 3 1 18007 Z³otnicka
+ 3 1 18011 Jeleniogórska
+18011 Jeleniogórska
+ 3 1 18009 Wschowska
+ 3 1 18201 LEŒNICA
+18201 LEŒNICA
+ 3 1 18011 Jeleniogórska
+X

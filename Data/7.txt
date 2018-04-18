@@ -1,0 +1,80 @@
+23022 POŒWIÊTNE
+ 7 1 23020 Wo³owska
+23020 Wo³owska
+ 7 1 23022 POŒWIÊTNE
+ 7 1 23018 Kêpiñska
+23018 Kêpiñska
+ 7 1 23020 Wo³owska
+ 7 1 23016 Kamieñskiego
+23016 Kamieñskiego
+ 7 1 23018 Kêpiñska
+ 7 1 23014 Broniewskiego
+23014 Broniewskiego
+ 7 1 23016 Kamieñskiego
+ 7 1 20618 Trzebnicka
+20618 Trzebnicka
+ 7 1 23014 Broniewskiego
+ 7 1 20616 DWORZECNADODRZE
+20616 DWORZECNADODRZE
+ 7 1 20618 Trzebnicka
+ 7 1 20614 Pauliñska
+20614 Pauliñska
+ 7 1 20616 DWORZECNADODRZE
+ 7 1 20612 Dubois
+20612 Dubois
+ 7 1 20614 Pauliñska
+ 7 1 10015 Uniwersytet
+10015 Uniwersytet
+ 7 1 20612 Dubois
+ 7 1 10006 Rynek
+10006 Rynek
+ 7 1 10015 Uniwersytet
+ 7 1 10241 NarodoweForumMuzyki
+10241 NarodoweForumMuzyki
+ 7 1 10006 Rynek
+ 7 1 10250 Renoma
+10250 Renoma
+ 7 1 10241 NarodoweForumMuzyki
+ 7 1 10233 Arkady(Capitol)
+10233 Arkady(Capitol)
+ 7 1 10250 Renoma
+ 7 1 11201 Zaolziañska
+11201 Zaolziañska
+ 7 1 10233 Arkady(Capitol)
+ 7 1 11203 Wielka
+11203 Wielka
+ 7 1 11201 Zaolziañska
+ 7 1 11205 Rondo
+11205 Rondo
+ 7 1 11203 Wielka
+ 7 1 11207 Sztabowa
+11207 Sztabowa
+ 7 1 11205 Rondo
+ 7 1 11209 HALLERA
+11209 HALLERA
+ 7 1 11207 Sztabowa
+ 7 1 11211 Jastrzêbia
+11211 Jastrzêbia
+ 7 1 11209 HALLERA
+ 7 1 11213 Orla
+11213 Orla
+ 7 1 11211 Jastrzêbia
+ 7 1 11215 KRZYKI
+11215 KRZYKI
+ 7 1 11213 Orla
+ 7 1 16401 RadioiTelewizja
+16401 RadioiTelewizja
+ 7 1 11215 KRZYKI
+ 7 1 16403 PrzyjaŸni
+16403 PrzyjaŸni
+ 7 1 16401 RadioiTelewizja
+ 7 1 16405 Braterska
+16405 Braterska
+ 7 1 16403 PrzyjaŸni
+ 7 1 16407 S¹siedzka
+16407 S¹siedzka
+ 7 1 16405 Braterska
+ 7 1 16409 KLECINA
+16409 KLECINA
+ 7 1 16407 S¹siedzka
+X

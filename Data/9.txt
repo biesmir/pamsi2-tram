@@ -1,0 +1,74 @@
+11242 PARKPO£UDNIOWY
+ 9 1 11240 Pu³tuska
+11240 Pu³tuska
+ 9 1 11242 PARKPO£UDNIOWY
+ 9 1 11238 Weigla(Szpital)
+11238 Weigla(Szpital)
+ 9 1 11240 Pu³tuska
+ 9 1 11236 Jaworowa
+11236 Jaworowa
+ 9 1 11238 Weigla(Szpital)
+ 9 1 11234 Wiœniowa
+11234 Wiœniowa
+ 9 1 11236 Jaworowa
+ 9 1 11232 UniwersytetEkonomiczny
+11232 UniwersytetEkonomiczny
+ 9 1 11234 Wiœniowa
+ 9 1 11036 Sanocka
+11036 Sanocka
+ 9 1 11232 UniwersytetEkonomiczny
+ 9 1 21002 DWORZECAUTOBUSOWY
+21002 DWORZECAUTOBUSOWY
+ 9 1 11036 Sanocka
+ 9 1 20268 DWORZECG£ÓWNY
+20268 DWORZECG£ÓWNY
+ 9 1 21002 DWORZECAUTOBUSOWY
+ 9 1 10222 WzgórzePartyzantów
+10222 WzgórzePartyzantów
+ 9 1 20268 DWORZECG£ÓWNY
+ 9 1 10021 GALERIADOMINIKAÑSKA
+10021 GALERIADOMINIKAÑSKA
+ 9 1 10222 WzgórzePartyzantów
+ 9 1 10027 pl.NowyTarg
+10027 pl.NowyTarg
+ 9 1 10021 GALERIADOMINIKAÑSKA
+ 9 1 10023 HalaTargowa
+10023 HalaTargowa
+ 9 1 10027 pl.NowyTarg
+ 9 1 20657 pl.Bema
+20657 pl.Bema
+ 9 1 10023 HalaTargowa
+ 9 1 20801 OgródBotaniczny
+20801 OgródBotaniczny
+ 9 1 20657 pl.Bema
+ 9 1 20803 Górnickiego
+20803 Górnickiego
+ 9 1 20801 OgródBotaniczny
+ 9 1 20805 Piastowska
+20805 Piastowska
+ 9 1 20803 Górnickiego
+ 9 1 20807 Grunwaldzka
+20807 Grunwaldzka
+ 9 1 20805 Piastowska
+ 9 1 24201 Kochanowskiego
+24201 Kochanowskiego
+ 9 1 20807 Grunwaldzka
+ 9 1 24203 Chopina
+24203 Chopina
+ 9 1 24201 Kochanowskiego
+ 9 1 24205 Kar³owicza
+24205 Kar³owicza
+ 9 1 24203 Chopina
+ 9 1 24207 StadionOlimpijski
+24207 StadionOlimpijski
+ 9 1 24205 Kar³owicza
+ 9 1 24209 8Maja
+24209 8Maja
+ 9 1 24207 StadionOlimpijski
+ 9 1 24211 Godebskiego(AWFWroc³aw)
+24211 Godebskiego(AWFWroc³aw)
+ 9 1 24209 8Maja
+ 9 1 24214 SÊPOLNO
+24214 SÊPOLNO
+ 9 1 24211 Godebskiego(AWFWroc³aw)
+X

@@ -1,0 +1,62 @@
+23022 POŒWIÊTNE
+ 15 1 23020 Wo³owska
+23020 Wo³owska
+ 15 1 23022 POŒWIÊTNE
+ 15 1 23018 Kêpiñska
+23018 Kêpiñska
+ 15 1 23020 Wo³owska
+ 15 1 23016 Kamieñskiego
+23016 Kamieñskiego
+ 15 1 23018 Kêpiñska
+ 15 1 23024 Kamieñskiego
+23024 Kamieñskiego
+ 15 1 23016 Kamieñskiego
+ 15 1 23010 Ba³tycka
+23010 Ba³tycka
+ 15 1 23024 Kamieñskiego
+ 15 1 10606 Kleczkowska
+10606 Kleczkowska
+ 15 1 23010 Ba³tycka
+ 15 1 10604 PL.STASZICA
+10604 PL.STASZICA
+ 15 1 10606 Kleczkowska
+ 15 1 10602 Pomorska
+10602 Pomorska
+ 15 1 10604 PL.STASZICA
+ 15 1 10006 Rynek
+10006 Rynek
+ 15 1 10602 Pomorska
+ 15 1 10241 NarodoweForumMuzyki
+10241 NarodoweForumMuzyki
+ 15 1 10006 Rynek
+ 15 1 10243 pl.Legionów
+10243 pl.Legionów
+ 15 1 10241 NarodoweForumMuzyki
+ 15 1 10270 Arkady(Capitol)
+10270 Arkady(Capitol)
+ 15 1 10243 pl.Legionów
+ 15 1 11001 DWORZECAUTOBUSOWY
+11001 DWORZECAUTOBUSOWY
+ 15 1 10270 Arkady(Capitol)
+ 15 1 11035 Sanocka
+11035 Sanocka
+ 15 1 11001 DWORZECAUTOBUSOWY
+ 15 1 11231 UniwersytetEkonomiczny
+11231 UniwersytetEkonomiczny
+ 15 1 11035 Sanocka
+ 15 1 11233 Wiœniowa
+11233 Wiœniowa
+ 15 1 11231 UniwersytetEkonomiczny
+ 15 1 11235 Jaworowa
+11235 Jaworowa
+ 15 1 11233 Wiœniowa
+ 15 1 11237 Weigla(Szpital)
+11237 Weigla(Szpital)
+ 15 1 11235 Jaworowa
+ 15 1 11239 Pu³tuska
+11239 Pu³tuska
+ 15 1 11237 Weigla(Szpital)
+ 15 1 11242 PARKPO£UDNIOWY
+11242 PARKPO£UDNIOWY
+ 15 1 11239 Pu³tuska
+X

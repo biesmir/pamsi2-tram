@@ -1,0 +1,65 @@
+11610 GRABISZYÑSKA(Cmentarz)
+ 11 1 11608 Fio³kowa
+11608 Fio³kowa
+ 11 1 11610 GRABISZYÑSKA(Cmentarz)
+ 11 1 11606 FAT
+11606 FAT
+ 11 1 11608 Fio³kowa
+ 11 1 11604 Hutmen
+11604 Hutmen
+ 11 1 11606 FAT
+ 11 1 11602 Bzowa(CentrumZajezdnia)
+11602 Bzowa(CentrumZajezdnia)
+ 11 1 11604 Hutmen
+ 11 1 11406 pl.Srebrny
+11406 pl.Srebrny
+ 11 1 11602 Bzowa(CentrumZajezdnia)
+ 11 1 11404 Stalowa
+11404 Stalowa
+ 11 1 11406 pl.Srebrny
+ 11 1 11402 Pereca
+11402 Pereca
+ 11 1 11404 Stalowa
+ 11 1 10246 Grabiszyñska
+10246 Grabiszyñska
+ 11 1 11402 Pereca
+ 11 1 10244 pl.Legionów
+10244 pl.Legionów
+ 11 1 10246 Grabiszyñska
+ 11 1 10270 Arkady(Capitol)
+10270 Arkady(Capitol)
+ 11 1 10244 pl.Legionów
+ 11 1 10268 DWORZECG£ÓWNY
+10268 DWORZECG£ÓWNY
+ 11 1 10270 Arkady(Capitol)
+ 11 1 10222 WzgórzePartyzantów
+10222 WzgórzePartyzantów
+ 11 1 10268 DWORZECG£ÓWNY
+ 11 1 10021 GALERIADOMINIKAÑSKA
+10021 GALERIADOMINIKAÑSKA
+ 11 1 10222 WzgórzePartyzantów
+ 11 1 10027 pl.NowyTarg
+10027 pl.NowyTarg
+ 11 1 10021 GALERIADOMINIKAÑSKA
+ 11 1 10023 HalaTargowa
+10023 HalaTargowa
+ 11 1 10027 pl.NowyTarg
+ 11 1 20621 pl.Bema
+20621 pl.Bema
+ 11 1 10023 HalaTargowa
+ 11 1 20623 NaSzañcach
+20623 NaSzañcach
+ 11 1 20621 pl.Bema
+ 11 1 20625 JednoœciNarodowej
+20625 JednoœciNarodowej
+ 11 1 20623 NaSzañcach
+ 11 1 20627 Nowowiejska
+20627 Nowowiejska
+ 11 1 20625 JednoœciNarodowej
+ 11 1 20631 Daszyñskiego
+20631 Daszyñskiego
+ 11 1 20627 Nowowiejska
+ 11 1 20629 MostyWarszawskie
+20629 MostyWarszawskie
+ 11 1 20631 Daszyñskiego
+X

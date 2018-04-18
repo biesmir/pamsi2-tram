@@ -1,0 +1,53 @@
+24002 KROMERA
+ 23 1 20630 MostyWarszawskie
+20630 MostyWarszawskie
+ 23 1 24002 KROMERA
+ 23 1 20632 Daszyñskiego
+20632 Daszyñskiego
+ 23 1 20630 MostyWarszawskie
+ 23 1 20628 Nowowiejska
+20628 Nowowiejska
+ 23 1 20632 Daszyñskiego
+ 23 1 20626 JednoœciNarodowej
+20626 JednoœciNarodowej
+ 23 1 20628 Nowowiejska
+ 23 1 20624 NaSzañcach
+20624 NaSzañcach
+ 23 1 20626 JednoœciNarodowej
+ 23 1 20622 pl.Bema
+20622 pl.Bema
+ 23 1 20624 NaSzañcach
+ 23 1 10024 HalaTargowa
+10024 HalaTargowa
+ 23 1 20622 pl.Bema
+ 23 1 10026 pl.NowyTarg
+10026 pl.NowyTarg
+ 23 1 10024 HalaTargowa
+ 23 1 10022 GALERIADOMINIKAÑSKA
+10022 GALERIADOMINIKAÑSKA
+ 23 1 10026 pl.NowyTarg
+ 23 1 10001 Œwidnicka
+10001 Œwidnicka
+ 23 1 10022 GALERIADOMINIKAÑSKA
+ 23 1 10003 Rynek
+10003 Rynek
+ 23 1 10001 Œwidnicka
+ 23 1 10401 PL.JANAPAW£AII
+10401 PL.JANAPAW£AII
+ 23 1 10003 Rynek
+ 23 1 10403 M³odychTechników
+10403 M³odychTechników
+ 23 1 10401 PL.JANAPAW£AII
+ 23 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 23 1 10403 M³odychTechników
+ 23 1 10411 Dolmed
+10411 Dolmed
+ 23 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 23 1 10413 Œrubowa
+10413 Œrubowa
+ 23 1 10411 Dolmed
+ 23 1 12002 Wroc³awskiParkPrzemys³owy
+12002 Wroc³awskiParkPrzemys³owy
+ 23 1 10413 Œrubowa
+X

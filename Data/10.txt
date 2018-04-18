@@ -1,0 +1,110 @@
+24416 BISKUPIN
+ 10 1 24414 Spó³dzielcza
+24414 Spó³dzielcza
+ 10 1 24416 BISKUPIN
+ 10 1 24412 Piramowicza
+24412 Piramowicza
+ 10 1 24414 Spó³dzielcza
+ 10 1 24410 Che³moñskiego
+24410 Che³moñskiego
+ 10 1 24412 Piramowicza
+ 10 1 24408 Tramwajowa
+24408 Tramwajowa
+ 10 1 24410 Che³moñskiego
+ 10 1 24404 ZOO
+24404 ZOO
+ 10 1 24408 Tramwajowa
+ 10 1 24402 HalaStulecia
+24402 HalaStulecia
+ 10 1 24404 ZOO
+ 10 1 20818 Kliniki
+20818 Kliniki
+ 10 1 24402 HalaStulecia
+ 10 1 20820 PL.GRUNWALDZKI
+20820 PL.GRUNWALDZKI
+ 10 1 20818 Kliniki
+ 10 1 20814 Reja
+20814 Reja
+ 10 1 20820 PL.GRUNWALDZKI
+ 10 1 20812 Katedra
+20812 Katedra
+ 10 1 20814 Reja
+ 10 1 20282 Urz¹dWojewódzki
+20282 Urz¹dWojewódzki
+ 10 1 20812 Katedra
+ 10 1 10032 GALERIADOMINIKAÑSKA
+10032 GALERIADOMINIKAÑSKA
+ 10 1 20282 Urz¹dWojewódzki
+ 10 1 10001 Œwidnicka
+10001 Œwidnicka
+ 10 1 10032 GALERIADOMINIKAÑSKA
+ 10 1 10003 Rynek
+10003 Rynek
+ 10 1 10001 Œwidnicka
+ 10 1 10401 PL.JANAPAW£AII
+10401 PL.JANAPAW£AII
+ 10 1 10003 Rynek
+ 10 1 10403 M³odychTechników
+10403 M³odychTechników
+ 10 1 10401 PL.JANAPAW£AII
+ 10 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 10 1 10403 M³odychTechników
+ 10 1 10407 ZACHODNIA(Stacjakolejowa)
+10407 ZACHODNIA(Stacjakolejowa)
+ 10 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 10 1 12201 NiedŸwiedzia
+12201 NiedŸwiedzia
+ 10 1 10407 ZACHODNIA(Stacjakolejowa)
+ 10 1 12203 Ma³opanewska
+12203 Ma³opanewska
+ 10 1 12201 NiedŸwiedzia
+ 10 1 12205 Kwiska
+12205 Kwiska
+ 10 1 12203 Ma³opanewska
+ 10 1 12401 DHAstra
+12401 DHAstra
+ 10 1 12205 Kwiska
+ 10 1 12403 ParkZachodni
+12403 ParkZachodni
+ 10 1 12401 DHAstra
+ 10 1 12405 Bajana
+12405 Bajana
+ 10 1 12403 ParkZachodni
+ 10 1 12407 Metalowców
+12407 Metalowców
+ 10 1 12405 Bajana
+ 10 1 12409 PILCZYCE
+12409 PILCZYCE
+ 10 1 12407 Metalowców
+ 10 1 18013 StadionWroc³aw(Lotnicza)
+18013 StadionWroc³aw(Lotnicza)
+ 10 1 12409 PILCZYCE
+ 10 1 18001 Glinianki
+18001 Glinianki
+ 10 1 18013 StadionWroc³aw(Lotnicza)
+ 10 1 18017 Kosmonautów(Nowe¯erniki)
+18017 Kosmonautów(Nowe¯erniki)
+ 10 1 18001 Glinianki
+ 10 1 18003 Grabowa
+18003 Grabowa
+ 10 1 18017 Kosmonautów(Nowe¯erniki)
+ 10 1 18015 Kosmonautów(Szpital)
+18015 Kosmonautów(Szpital)
+ 10 1 18003 Grabowa
+ 10 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
+18005 Kamiennogórska(Oœrodekdlaniewidomych)
+ 10 1 18015 Kosmonautów(Szpital)
+ 10 1 18007 Z³otnicka
+18007 Z³otnicka
+ 10 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
+ 10 1 18009 Wschowska
+18009 Wschowska
+ 10 1 18007 Z³otnicka
+ 10 1 18011 Jeleniogórska
+18011 Jeleniogórska
+ 10 1 18009 Wschowska
+ 10 1 18201 LEŒNICA
+18201 LEŒNICA
+ 10 1 18011 Jeleniogórska
+X

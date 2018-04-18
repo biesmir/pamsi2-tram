@@ -1,0 +1,77 @@
+11614 OPORÓW
+ 4 1 11612 GRABISZYÑSKA(CmentarzII)
+11612 GRABISZYÑSKA(CmentarzII)
+ 4 1 11614 OPORÓW
+ 4 1 11610 GRABISZYÑSKA(Cmentarz)
+11610 GRABISZYÑSKA(Cmentarz)
+ 4 1 11612 GRABISZYÑSKA(CmentarzII)
+ 4 1 11608 Fio³kowa
+11608 Fio³kowa
+ 4 1 11610 GRABISZYÑSKA(Cmentarz)
+ 4 1 11606 FAT
+11606 FAT
+ 4 1 11608 Fio³kowa
+ 4 1 11604 Hutmen
+11604 Hutmen
+ 4 1 11606 FAT
+ 4 1 11602 Bzowa(CentrumZajezdnia)
+11602 Bzowa(CentrumZajezdnia)
+ 4 1 11604 Hutmen
+ 4 1 11406 pl.Srebrny
+11406 pl.Srebrny
+ 4 1 11602 Bzowa(CentrumZajezdnia)
+ 4 1 11404 Stalowa
+11404 Stalowa
+ 4 1 11406 pl.Srebrny
+ 4 1 11402 Pereca
+11402 Pereca
+ 4 1 11404 Stalowa
+ 4 1 10246 Grabiszyñska
+10246 Grabiszyñska
+ 4 1 11402 Pereca
+ 4 1 10244 pl.Legionów
+10244 pl.Legionów
+ 4 1 10246 Grabiszyñska
+ 4 1 10240 NarodoweForumMuzyki
+10240 NarodoweForumMuzyki
+ 4 1 10244 pl.Legionów
+ 4 1 10002 Œwidnicka
+10002 Œwidnicka
+ 4 1 10240 NarodoweForumMuzyki
+ 4 1 10031 GALERIADOMINIKAÑSKA
+10031 GALERIADOMINIKAÑSKA
+ 4 1 10002 Œwidnicka
+ 4 1 20291 Urz¹dWojewódzki
+20291 Urz¹dWojewódzki
+ 4 1 10031 GALERIADOMINIKAÑSKA
+ 4 1 20821 mostGrunwaldzki
+20821 mostGrunwaldzki
+ 4 1 20291 Urz¹dWojewódzki
+ 4 1 20815 PL.GRUNWALDZKI
+20815 PL.GRUNWALDZKI
+ 4 1 20821 mostGrunwaldzki
+ 4 1 20817 Kliniki
+20817 Kliniki
+ 4 1 20815 PL.GRUNWALDZKI
+ 4 1 24401 HalaStulecia
+24401 HalaStulecia
+ 4 1 20817 Kliniki
+ 4 1 24403 ZOO
+24403 ZOO
+ 4 1 24401 HalaStulecia
+ 4 1 24407 Tramwajowa
+24407 Tramwajowa
+ 4 1 24403 ZOO
+ 4 1 24409 Che³moñskiego
+24409 Che³moñskiego
+ 4 1 24407 Tramwajowa
+ 4 1 24411 Piramowicza
+24411 Piramowicza
+ 4 1 24409 Che³moñskiego
+ 4 1 24413 Spó³dzielcza
+24413 Spó³dzielcza
+ 4 1 24411 Piramowicza
+ 4 1 24416 BISKUPIN
+24416 BISKUPIN
+ 4 1 24413 Spó³dzielcza
+X

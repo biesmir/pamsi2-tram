@@ -1,0 +1,62 @@
+20620 DWORZECNADODRZE
+ -1 1 20662 PL.STASZICA
+20662 PL.STASZICA
+ -1 1 20620 DWORZECNADODRZE
+ -1 1 10654 Pomorska
+10654 Pomorska
+ -1 1 20662 PL.STASZICA
+ -1 1 10652 Dmowskiego
+10652 Dmowskiego
+ -1 1 10654 Pomorska
+ -1 1 10452 PL.JANAPAW£AII
+10452 PL.JANAPAW£AII
+ -1 1 10652 Dmowskiego
+ -1 1 10274 pl.Orl¹tLwowskich
+10274 pl.Orl¹tLwowskich
+ -1 1 10452 PL.JANAPAW£AII
+ -1 1 10272 pl.Legionów
+10272 pl.Legionów
+ -1 1 10274 pl.Orl¹tLwowskich
+ -1 1 10270 Arkady(Capitol)
+10270 Arkady(Capitol)
+ -1 1 10272 pl.Legionów
+ -1 1 10268 DWORZECG£ÓWNY
+10268 DWORZECG£ÓWNY
+ -1 1 10270 Arkady(Capitol)
+ -1 1 20266 Pu³askiego
+20266 Pu³askiego
+ -1 1 10268 DWORZECG£ÓWNY
+ -1 1 20264 Koœciuszki
+20264 Koœciuszki
+ -1 1 20266 Pu³askiego
+ -1 1 20262 KomunyParyskiej
+20262 KomunyParyskiej
+ -1 1 20264 Koœciuszki
+ -1 1 20202 pl.Wróblewskiego
+20202 pl.Wróblewskiego
+ -1 1 20262 KomunyParyskiej
+ -1 1 20291 Urz¹dWojewódzki
+20291 Urz¹dWojewódzki
+ -1 1 20202 pl.Wróblewskiego
+ -1 1 20821 mostGrunwaldzki
+20821 mostGrunwaldzki
+ -1 1 20291 Urz¹dWojewódzki
+ -1 1 20823 PL.GRUNWALDZKI
+20823 PL.GRUNWALDZKI
+ -1 1 20821 mostGrunwaldzki
+ -1 1 20854 Piastowska
+20854 Piastowska
+ -1 1 20823 PL.GRUNWALDZKI
+ -1 1 20852 Prusa
+20852 Prusa
+ -1 1 20854 Piastowska
+ -1 1 20670 Wyszyñskiego
+20670 Wyszyñskiego
+ -1 1 20852 Prusa
+ -1 1 20628 Nowowiejska
+20628 Nowowiejska
+ -1 1 20670 Wyszyñskiego
+ -1 1 20666 S³owiañska
+20666 S³owiañska
+ -1 1 20628 Nowowiejska
+X

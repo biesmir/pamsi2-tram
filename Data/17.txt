@@ -1,0 +1,92 @@
+24214 SÊPOLNO
+ 17 1 24212 Godebskiego(AWFWroc³aw)
+24212 Godebskiego(AWFWroc³aw)
+ 17 1 24214 SÊPOLNO
+ 17 1 24210 8Maja
+24210 8Maja
+ 17 1 24212 Godebskiego(AWFWroc³aw)
+ 17 1 24208 StadionOlimpijski
+24208 StadionOlimpijski
+ 17 1 24210 8Maja
+ 17 1 24206 Kar³owicza
+24206 Kar³owicza
+ 17 1 24208 StadionOlimpijski
+ 17 1 24204 Chopina
+24204 Chopina
+ 17 1 24206 Kar³owicza
+ 17 1 24202 Kochanowskiego
+24202 Kochanowskiego
+ 17 1 24204 Chopina
+ 17 1 20808 Grunwaldzka
+20808 Grunwaldzka
+ 17 1 24202 Kochanowskiego
+ 17 1 20806 Piastowska
+20806 Piastowska
+ 17 1 20808 Grunwaldzka
+ 17 1 20804 Górnickiego
+20804 Górnickiego
+ 17 1 20806 Piastowska
+ 17 1 20802 OgródBotaniczny
+20802 OgródBotaniczny
+ 17 1 20804 Górnickiego
+ 17 1 20622 pl.Bema
+20622 pl.Bema
+ 17 1 20802 OgródBotaniczny
+ 17 1 10024 HalaTargowa
+10024 HalaTargowa
+ 17 1 20622 pl.Bema
+ 17 1 10026 pl.NowyTarg
+10026 pl.NowyTarg
+ 17 1 10024 HalaTargowa
+ 17 1 10022 GALERIADOMINIKAÑSKA
+10022 GALERIADOMINIKAÑSKA
+ 17 1 10026 pl.NowyTarg
+ 17 1 10051 ParkStaromiejski
+10051 ParkStaromiejski
+ 17 1 10022 GALERIADOMINIKAÑSKA
+ 17 1 10053 Opera
+10053 Opera
+ 17 1 10051 ParkStaromiejski
+ 17 1 10233 Arkady(Capitol)
+10233 Arkady(Capitol)
+ 17 1 10053 Opera
+ 17 1 11201 Zaolziañska
+11201 Zaolziañska
+ 17 1 10233 Arkady(Capitol)
+ 17 1 11203 Wielka
+11203 Wielka
+ 17 1 11201 Zaolziañska
+ 17 1 11205 Rondo
+11205 Rondo
+ 17 1 11203 Wielka
+ 17 1 11207 Sztabowa
+11207 Sztabowa
+ 17 1 11205 Rondo
+ 17 1 11209 HALLERA
+11209 HALLERA
+ 17 1 11207 Sztabowa
+ 17 1 11211 Jastrzêbia
+11211 Jastrzêbia
+ 17 1 11209 HALLERA
+ 17 1 11213 Orla
+11213 Orla
+ 17 1 11211 Jastrzêbia
+ 17 1 11215 KRZYKI
+11215 KRZYKI
+ 17 1 11213 Orla
+ 17 1 16401 RadioiTelewizja
+16401 RadioiTelewizja
+ 17 1 11215 KRZYKI
+ 17 1 16403 PrzyjaŸni
+16403 PrzyjaŸni
+ 17 1 16401 RadioiTelewizja
+ 17 1 16405 Braterska
+16405 Braterska
+ 17 1 16403 PrzyjaŸni
+ 17 1 16407 S¹siedzka
+16407 S¹siedzka
+ 17 1 16405 Braterska
+ 17 1 16409 KLECINA
+16409 KLECINA
+ 17 1 16407 S¹siedzka
+X

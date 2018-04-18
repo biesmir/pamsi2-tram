@@ -1,0 +1,74 @@
+12610 KOZANÓW(Dokerska)
+ 32 1 12608 Kozanowska
+12608 Kozanowska
+ 32 1 12610 KOZANÓW(Dokerska)
+ 32 1 12606 Modra
+12606 Modra
+ 32 1 12608 Kozanowska
+ 32 1 12604 Pilczycka(Anima)
+12604 Pilczycka(Anima)
+ 32 1 12606 Modra
+ 32 1 12602 Kolista
+12602 Kolista
+ 32 1 12604 Pilczycka(Anima)
+ 32 1 12206 Kwiska
+12206 Kwiska
+ 32 1 12602 Kolista
+ 32 1 12204 Ma³opanewska
+12204 Ma³opanewska
+ 32 1 12206 Kwiska
+ 32 1 12202 NiedŸwiedzia
+12202 NiedŸwiedzia
+ 32 1 12204 Ma³opanewska
+ 32 1 10408 ZACHODNIA(Stacjakolejowa)
+10408 ZACHODNIA(Stacjakolejowa)
+ 32 1 12202 NiedŸwiedzia
+ 32 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
+10406 pl.Strzegomski(MuzeumWspó³czesne)
+ 32 1 10408 ZACHODNIA(Stacjakolejowa)
+ 32 1 10404 M³odychTechników
+10404 M³odychTechników
+ 32 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
+ 32 1 10402 PL.JANAPAW£AII
+10402 PL.JANAPAW£AII
+ 32 1 10404 M³odychTechników
+ 32 1 10274 pl.Orl¹tLwowskich
+10274 pl.Orl¹tLwowskich
+ 32 1 10402 PL.JANAPAW£AII
+ 32 1 10272 pl.Legionów
+10272 pl.Legionów
+ 32 1 10274 pl.Orl¹tLwowskich
+ 32 1 10270 Arkady(Capitol)
+10270 Arkady(Capitol)
+ 32 1 10272 pl.Legionów
+ 32 1 11001 DWORZECAUTOBUSOWY
+11001 DWORZECAUTOBUSOWY
+ 32 1 10270 Arkady(Capitol)
+ 32 1 21005 Joannitów
+21005 Joannitów
+ 32 1 11001 DWORZECAUTOBUSOWY
+ 32 1 21007 Gajowa
+21007 Gajowa
+ 32 1 21005 Joannitów
+ 32 1 21009 Prudnicka
+21009 Prudnicka
+ 32 1 21007 Gajowa
+ 32 1 21011 Kamienna
+21011 Kamienna
+ 32 1 21009 Prudnicka
+ 32 1 21023 BARDZKA
+21023 BARDZKA
+ 32 1 21011 Kamienna
+ 32 1 21025 Krynicka
+21025 Krynicka
+ 32 1 21023 BARDZKA
+ 32 1 21027 Morwowa
+21027 Morwowa
+ 32 1 21025 Krynicka
+ 32 1 21029 Œwieradowska
+21029 Œwieradowska
+ 32 1 21027 Morwowa
+ 32 1 21037 GAJ
+21037 GAJ
+ 32 1 21029 Œwieradowska
+X
