@@ -12,7 +12,12 @@
 void graph::add_stop(std::string name){
 	std::shared_ptr<tram_stop> tmp_ptr = std::make_shared<tram_stop>(size++,name);
 	this->stops.push_back(tmp_ptr);
-//	std::cout<<"utworzono przystanek"<<tmp_ptr->get_name()<<std::endl;
+}
+
+void graph::add_stop(tram_stop tram){
+	std::shared_ptr<tram_stop> tmp_ptr = new std::shared_ptr<tram_stop>;
+	*tmp_ptr = tram;
+	this->stops.push_back(tmp_ptr);
 }
 
 void graph::make_random_graph(int _size){

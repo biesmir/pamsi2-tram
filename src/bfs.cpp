@@ -8,12 +8,14 @@
 #include <unistd.h>
 #include "../inc/graph.hh"
 
-std::shared_ptr< std::queue<int> > graph::bfs(int _ID_source, int _ID_end){
-	std::shared_ptr< std::queue<int> > route = new std::queue<int>;
-
-	int u;
-
-	route->push(_ID_source);
+std::shared_ptr< std::stack<int> > graph::bfs(int _ID_source, int _ID_end){
+//	std::shared_ptr< std::stack<int> > route = new std::stack<int>();
+/*
+	graph search_tree;
+search_tree.add_stop(this->stops[_ID_source]);
+	int u = _ID_source;
+*/
+	//route->push(_ID_source);
 /*
 	std::queue<int> Q;
 	Q.push(_ID_source);
@@ -29,9 +31,10 @@ std::shared_ptr< std::queue<int> > graph::bfs(int _ID_source, int _ID_end){
 			}
 			}*/
 
+/*
 	while(u != _ID_end){
 
 	}
 
-	return route;
+	return route;*/
 }
