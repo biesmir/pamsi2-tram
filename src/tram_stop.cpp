@@ -15,6 +15,7 @@ tram_stop::tram_stop(int _ID, std::string _name)
 :ID(_ID),
  name(_name)
 {
+
 }
 
 

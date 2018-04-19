@@ -12,11 +12,11 @@ int main(){
 
 
 graph czy_dojade;
-//parsing(czy_dojade, "/tmp/1.txt");
-czy_dojade.make_random_graph(9);
+//parsing(czy_dojade, "1.txt");
+czy_dojade.make_random_graph(15);
 czy_dojade.all_stops(std::cout);
-czy_dojade.bfs(3,1);
-
+std::queue<int> route = czy_dojade.bfs(1,4);
+//std::cout<<route.back();
 
 	return 0;
 }

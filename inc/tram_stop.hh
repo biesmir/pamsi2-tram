@@ -24,6 +24,7 @@ private:
 	std::vector< connection > conn;
 
 public:
+	char colour;
  tram_stop(int ID, std::string _name);
  tram_stop();
 
