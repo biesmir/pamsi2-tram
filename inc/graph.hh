@@ -10,6 +10,7 @@
 
 #include <vector>
 #include <queue>
+#include <stack>
 #include <memory>
 #include <iostream>
 #include <cstdlib>
@@ -24,6 +25,8 @@ private:
 public:
 
 	void add_stop(std::string name);
+	void add_stop(tram_stop tram);
+
 	bool add_connection(int ID1, int ID2, unsigned short int time, int line);
 
 	bool add_connection(std::string _stop1, std::string _stop2, unsigned short int time, int line);
@@ -35,7 +38,9 @@ public:
 	graph():size(0){
 	}
 
-		std::shared_ptr< std::queue<int> > bfs(int _ID_begin, int _ID_end);
+		std::shared_ptr< std::stack<int> > bfs(int _ID_begin, int _ID_end);
+
+		std::shared_ptr<std::stack< int >> dfs(int source, int end);
 
 };
 
