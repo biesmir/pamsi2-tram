@@ -7,11 +7,13 @@
 
 #include <unistd.h>
 #include "../inc/graph.hh"
-#include "../inc/tree.hh"
+#include <stack>
+
 
 std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 	std::queue<int>  route;
-	tree search_tree;
+	std::shared_ptr<tram_stop> tmp;
+	std::stack<int> Rroute;
 
 	for(int i = 0; i < this->size-1; i++){
 		this->stops[i]->colour='w';
@@ -21,7 +23,7 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 	this->stops[u]->colour='b';
 	bool end=false;
 
-	route.push(_ID_source);
+
 
 	std::queue<int> Q;
 	Q.push(_ID_source);
@@ -30,7 +32,7 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 
 		u = Q.front();
 		Q.pop();
-		std::cout<<"u: "<<u<<std::endl;
+
 		for(int i=0;i<=this->stops[u]->get_number_of_connections()-1;i++){
 			s=this->stops[u]->get_connection_ID(i);
 
@@ -41,10 +43,11 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 			}
 			if(this->stops[s]->colour =='w'){
 						Q.push(s);
-						this->stops[s]->colour='b';
-						search_tree.add_node(u,s);
+						this->stops[s]->colour = 'b';
+						this->stops[s]->parent = this->stops[u];
+						this->stops[s]->time = this->stops[u]->get_connection_time(i);
 						std::cout<<s<<std::endl;
-						sleep(1);
+					//	sleep(1);
 			}
 
 
@@ -52,10 +55,15 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 
 	}
 
+	tmp = this->stops[s];
 
-	//while(u != _ID_end){
+			do{
+		Rroute.push(tmp->get_ID());
+	}while( (tmp = tmp->parent) );
 
-	//}
-
+			while(!Rroute.empty()){
+				route.push(Rroute.top());
+				Rroute.pop();
+			}
 	return route;
 }

@@ -13,7 +13,10 @@
 
 tram_stop::tram_stop(int _ID, std::string _name)
 :ID(_ID),
- name(_name)
+ name(_name),
+ time(0),
+ parent(NULL),
+ colour('w')
 {
 
 }
