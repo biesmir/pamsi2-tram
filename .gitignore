@@ -8,3 +8,7 @@ doc/\.uml\.vpp\.lck
 Debug/1\.txt
 
 Debug/main\.d
+
+Debug/kitty
+
+Debug/src/tree\.d
