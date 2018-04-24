@@ -80,3 +80,37 @@ bool graph::add_connection(std::string _stop1, std::string _stop2, unsigned shor
 
 	return 1;
 }
+
+void find(graph map, char algoritm, int source, int end){
+	std::stack<int> route;
+
+	switch(algoritm){
+
+	case 'b':	//breadth first search
+
+		route = map.bfs(source,end);
+
+		while(!route.empty()){
+			std::cout<<map.stops[route.top()]->get_name()<<" ";
+			route.pop();
+		}
+		std::cout<<std::endl;
+		break;
+
+	case 'd':	//depth first search
+
+		route = map.dfs(source,end);
+
+		while(!route.empty()){
+			std::cout<<map.stops[route.top()]->get_name()<<" ";
+			route.pop();
+		}
+		std::cout<<std::endl;
+		break;
+
+	default:
+		std::cerr<<"błędna opcja"<<std::endl;
+		break;
+
+	}
+}

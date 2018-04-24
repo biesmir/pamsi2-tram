@@ -42,7 +42,10 @@ public:
 
 	std::queue< int >dfs(int source, int end);
 
+	friend void find(graph, char, int, int);
+
 };
+
 
 
 #endif /* INC_GRAPH_HH_ */
