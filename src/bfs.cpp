@@ -10,10 +10,10 @@
 #include <stack>
 
 
-std::queue<int> graph::bfs(int _ID_source, int _ID_end){
-	std::queue<int>  route;
+std::stack<int> graph::bfs(int _ID_source, int _ID_end){
+
 	std::shared_ptr<tram_stop> tmp;
-	std::stack<int> Rroute;
+	std::stack<int> route;
 
 	for(int i = 0; i < this->size-1; i++){
 		this->stops[i]->colour='w';
@@ -23,7 +23,6 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 	this->stops[u]->colour='b';
 	bool end=false;
 
-Rroute.push(_ID_source);
 
 	std::queue<int> Q;
 	Q.push(_ID_source);
@@ -67,21 +66,14 @@ Rroute.push(_ID_source);
 
 tmp = this->stops[s];
 
-
+route.push(tmp->get_ID());
 
 while( tmp->parent != NULL){
 		tmp = tmp -> parent;
-		Rroute.push(tmp->get_ID());
+		route.push(tmp->get_ID());
 	}
 
 
-	while(!Rroute.empty()){
-			route.push(Rroute.top());
-			Rroute.pop();
-		}
-	while(!route.empty()){
-		std::cout<<route.back()<<" ";
-		route.pop();
-	}
+
 	return route;
 }

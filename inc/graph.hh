@@ -10,6 +10,7 @@
 
 #include <vector>
 #include <queue>
+#include <stack>
 #include <memory>
 #include <iostream>
 #include <cstdlib>
@@ -37,7 +38,7 @@ public:
 	graph():size(0){
 	}
 
-	std::queue<int> bfs(int _ID_begin, int _ID_end);
+	std::stack<int> bfs(int _ID_begin, int _ID_end);
 
 	std::queue< int >dfs(int source, int end);
 
