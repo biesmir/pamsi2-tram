@@ -45,6 +45,7 @@ if(plik.is_open())
             plik>>time; // czas
             plik>>word; // id
             plik>>word; // nazwa
+            Graph.add_stop(word);
             Graph.add_connection(word2,word,time,line);
 
 
@@ -53,6 +54,7 @@ if(plik.is_open())
             plik>>time; // czas
             plik>>word; // id
             plik>>word; // nazwa
+            Graph.add_stop(word);
             Graph.add_connection(word2,word,time,line);
         }
 
