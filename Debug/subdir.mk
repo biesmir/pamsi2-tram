@@ -6,9 +6,6 @@
 CPP_SRCS += \
 ../main.cpp 
 
-O_SRCS += \
-../main.o 
-
 OBJS += \
 ./main.o 
 

@@ -25,13 +25,17 @@ if(plik.is_open())
 	    Graph.add_stop(word2);  //dodanie pierwszego przystanku
         plik>>line; // linia
         plik>>time; // czas
-        plik>>word; // id 	//dwa razy do word??
+        plik>>word; // id
         plik>>word; // nazwa
         Graph.add_connection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
 
         while(plik>>word)
         {
-            if (word=="X") {return 1;}
+            if (word=="X") {
+            	plik.close();
+            	return 1;
+            }
+
             plik>>word2;
             Graph.add_stop(word2);
             plik>>line; // linia
@@ -51,8 +55,8 @@ if(plik.is_open())
 else
     {
 		cerr<<"Nie uda³o siê otworzyæ pliku";
+		return 0;
     }
 
-return 0;
 }
 

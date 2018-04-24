@@ -39,7 +39,7 @@ public:
 
 	std::queue<int> bfs(int _ID_begin, int _ID_end);
 
-		std::shared_ptr<std::queue< int >> dfs(int source, int end);
+	std::queue< int >dfs(int source, int end);
 
 };
 

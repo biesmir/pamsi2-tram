@@ -12,3 +12,5 @@ Debug/main\.d
 Debug/kitty
 
 Debug/src/tree\.d
+
+\.settings/language\.settings\.xml
