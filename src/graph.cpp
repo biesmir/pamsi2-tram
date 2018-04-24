@@ -9,15 +9,15 @@
 
 
 
-void graph::add_stop(std::string name){
+bool graph::add_stop(std::string name){
 
 	for(unsigned int i=0;i<this->stops.size();i++)
 		if(this->stops[i]->get_name()==name)
-			return;
+			return 0;
 
 	std::shared_ptr<tram_stop> tmp_ptr = std::make_shared<tram_stop>(size++,name);
 	this->stops.push_back(tmp_ptr);
-
+	return 1;
 }
 
 

@@ -38,7 +38,11 @@ Rroute.push(_ID_source);
 
 			if(s==_ID_end){
 					std::cout<<"znaleziono"<<std::endl;
+					this->stops[s]->parent = this->stops[u];
+
+					this->stops[s]->time = this->stops[u]->get_connection_time(i);
 					end=true;
+
 					break;
 			}
 			if(this->stops[s]->colour =='w'){
@@ -46,11 +50,9 @@ Rroute.push(_ID_source);
 
 						this->stops[s]->colour = 'b';
 
-
+						std::cout<<s<<std::endl;
 
 						this->stops[s]->parent = this->stops[u];
-
-
 
 						this->stops[s]->time = this->stops[u]->get_connection_time(i);
 
@@ -63,16 +65,23 @@ Rroute.push(_ID_source);
 
 	}
 
-	tmp = this->stops[s];
-std::cout<<tmp->time;
-			do{
+tmp = this->stops[s];
+
+
+
+while( tmp->parent != NULL){
+		tmp = tmp -> parent;
 		Rroute.push(tmp->get_ID());
-	}while( (tmp = tmp->parent) );
+	}
 
-			while(!Rroute.empty()){
-				route.push(Rroute.top());
-				Rroute.pop();
-			}
 
+	while(!Rroute.empty()){
+			route.push(Rroute.top());
+			Rroute.pop();
+		}
+	while(!route.empty()){
+		std::cout<<route.back()<<" ";
+		route.pop();
+	}
 	return route;
 }

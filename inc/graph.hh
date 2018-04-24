@@ -23,7 +23,7 @@ private:
 
 public:
 
-	void add_stop(std::string name);
+	bool add_stop(std::string name);
 	void add_stop(tram_stop tram);
 
 	bool add_connection(int ID1, int ID2, unsigned short int time, int line);
