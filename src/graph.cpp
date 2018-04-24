@@ -10,15 +10,16 @@
 
 
 void graph::add_stop(std::string name){
+
+	for(unsigned int i=0;i<this->stops.size();i++)
+		if(this->stops[i]->get_name()==name)
+			return;
+
 	std::shared_ptr<tram_stop> tmp_ptr = std::make_shared<tram_stop>(size++,name);
 	this->stops.push_back(tmp_ptr);
+
 }
-/*
-void graph::add_stop(tram_stop tram){
-	std::shared_ptr<tram_stop> tmp_ptr = new std::shared_ptr<tram_stop>;
-	*tmp_ptr = tram;
-	this->stops.push_back(tmp_ptr);
-}*/
+
 
 void graph::make_random_graph(int _size){
 	std::string city[]={"	Wadowice (MP)","    Wałbrzych (DŚ)","    Wałcz (ZP)","    Warka (MZ)","    Warszawa (MZ)","    Warta (ŁD)","    Wasilków (PL)","    Wąbrzeźno (KP)","    Wąchock (ŚK)","    Wągrowiec (WP)","    Wąsosz (DŚ)","    Wejherowo (PM)","    Węgliniec (DŚ)","    Węgorzewo (WM)","    Węgorzyno (ZP)","    Węgrów (MZ)","    Wiązów (DŚ)","    Wieleń (WP)","    Wielichowo (WP)","    Wieliczka (MP)","    Wieluń (ŁD)","    Wieruszów (ŁD)","    Więcbork (KP)","    Wilamowice (ŚL)","    Wisła (ŚL)","    Wiślica (ŚK)","    Witkowo (WP)","    Witnica (LS)","    Wleń (DŚ)","    Władysławowo (PM)","    Włocławek (KP)","    Włodawa (LB)",    "Włoszczowa (ŚK)"};
