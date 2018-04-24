@@ -23,7 +23,7 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 	this->stops[u]->colour='b';
 	bool end=false;
 
-
+Rroute.push(_ID_source);
 
 	std::queue<int> Q;
 	Q.push(_ID_source);
@@ -43,11 +43,19 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 			}
 			if(this->stops[s]->colour =='w'){
 						Q.push(s);
+
 						this->stops[s]->colour = 'b';
+
+
+
 						this->stops[s]->parent = this->stops[u];
+
+
+
 						this->stops[s]->time = this->stops[u]->get_connection_time(i);
-						std::cout<<s<<std::endl;
-					//	sleep(1);
+
+
+
 			}
 
 
@@ -56,7 +64,7 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 	}
 
 	tmp = this->stops[s];
-
+std::cout<<tmp->time;
 			do{
 		Rroute.push(tmp->get_ID());
 	}while( (tmp = tmp->parent) );
@@ -65,5 +73,6 @@ std::queue<int> graph::bfs(int _ID_source, int _ID_end){
 				route.push(Rroute.top());
 				Rroute.pop();
 			}
+
 	return route;
 }

@@ -10,8 +10,7 @@ CPP_SRCS += \
 ../src/graph.cpp \
 ../src/line.cpp \
 ../src/parsing.cpp \
-../src/tram_stop.cpp \
-../src/tree.cpp 
+../src/tram_stop.cpp 
 
 OBJS += \
 ./src/bfs.o \
@@ -20,8 +19,7 @@ OBJS += \
 ./src/graph.o \
 ./src/line.o \
 ./src/parsing.o \
-./src/tram_stop.o \
-./src/tree.o 
+./src/tram_stop.o 
 
 CPP_DEPS += \
 ./src/bfs.d \
@@ -30,8 +28,7 @@ CPP_DEPS += \
 ./src/graph.d \
 ./src/line.d \
 ./src/parsing.d \
-./src/tram_stop.d \
-./src/tree.d 
+./src/tram_stop.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

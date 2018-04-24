@@ -43,7 +43,9 @@ connection(int _ID, int _time, int _line,std::shared_ptr<tram_stop> _stop, int _
 	trams[_line]=true;
 }
 
-
+int get_time(){
+	return time;
+}
 
 std::shared_ptr<tram_stop> get_second_stop(){
 	return next;

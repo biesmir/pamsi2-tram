@@ -50,7 +50,7 @@ int get_number_of_connections(){
 
 int get_connection_ID(int i);
 int get_connection_time(int i){
-	return time;
+	return conn[i].get_time();
 }
 
 std::shared_ptr<tram_stop> get_connection(int i);

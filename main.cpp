@@ -13,9 +13,9 @@ int main(){
 
 graph czy_dojade;
 //parsing(czy_dojade, "1.txt");
-czy_dojade.make_random_graph(15);
+czy_dojade.make_random_graph(30);
 czy_dojade.all_stops(std::cout);
-std::queue<int> route = czy_dojade.bfs(3,8);
+std::queue<int> route = czy_dojade.bfs(2,22);
 while(!route.empty()){
 	std::cout<<route.back()<<" ";
 	route.pop();
