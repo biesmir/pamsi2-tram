@@ -27,10 +27,13 @@ if(plik.is_open())
         plik>>time; // czas
         plik>>word; // id
         plik>>word; // nazwa
+        Graph.add_stop(word);  //dodanie drugiego przystanku
         Graph.add_connection(word2,word,time,line);   //dodanie pierwszego polaczenia z txt
 
         while(plik>>word)
         {
+
+
             if (word=="X") {
             	plik.close();
             	return 1;
@@ -43,6 +46,8 @@ if(plik.is_open())
             plik>>word; // id
             plik>>word; // nazwa
             Graph.add_connection(word2,word,time,line);
+
+
 
             plik>>line; // linia
             plik>>time; // czas
@@ -58,5 +63,6 @@ else
 		return 0;
     }
 
+return -1;
 }
 
