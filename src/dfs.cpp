@@ -37,12 +37,12 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 		S.pop();
 		if(u==_ID_end){
 				std::cout<<"znaleziono"<<std::endl;
-				/*
-				s=this->stops[u]->get_connection_ID(???);
-				this->stops[s]->parent = this->stops[u];
+				s = S.top();
+				S.push(u);
 
+				this->stops[s]->parent = this->stops[u];
 				this->stops[s]->time = this->stops[u]->get_connection_time(i);
-				*/
+
 				end=true;
 				break;
 		}
@@ -57,7 +57,6 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 						std::cout<<s<<std::endl;
 						this->stops[s]->parent = this->stops[u];
 						this->stops[s]->time = this->stops[u]->get_connection_time(i);
-						std::cout<<s<<std::endl;
 					//	sleep(1);
 			}
 
