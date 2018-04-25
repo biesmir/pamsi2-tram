@@ -16,7 +16,6 @@
 std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 	std::stack<int>  route;
 	std::shared_ptr<tram_stop> tmp;
-	//std::stack<int> Rroute;
 
 	for(int i = 0; i < this->size-1; i++){
 		this->stops[i]->colour='w';
@@ -41,8 +40,7 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 				S.push(u);
 
 				this->stops[s]->parent = this->stops[u];
-				this->stops[s]->time = this->stops[u]->get_connection_time(i);
-
+				std::cout<<s<<std::endl;
 				end=true;
 				break;
 		}
@@ -56,7 +54,6 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 						this->stops[s]->colour = 'b';
 						std::cout<<s<<std::endl;
 						this->stops[s]->parent = this->stops[u];
-						this->stops[s]->time = this->stops[u]->get_connection_time(i);
 					//	sleep(1);
 			}
 
