@@ -49,13 +49,17 @@ int get_time(){
 	return time;
 }
 
+int get_ID(){
+	return ID;
+}
+
 std::shared_ptr<tram_stop> get_second_stop(){
 	return next;
 }
 
 void add_line(short int _line);
 
-
+bool check_line(short int _line);
 
 };
 

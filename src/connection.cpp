@@ -15,3 +15,13 @@ void connection::add_line(short int _line){
 	else
 		this->trams[_line]=true;
 }
+
+
+bool connection::check_line(short int _line){
+	if(_line == -1)
+		if(this->trams[34])
+			return 1;
+	if(this->trams[_line])
+		return 1;
+	return 0;
+}
