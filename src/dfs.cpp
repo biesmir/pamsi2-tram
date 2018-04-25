@@ -27,17 +27,17 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 
 
 
-	std::stack<int> S;
-	S.push(_ID_source);
+	std::stack<int> tmpSt;
+	tmpSt.push(_ID_source);
 
-	while(!S.empty() && !end){
+	while(!tmpSt.empty() && !end){
 
-		u = S.top();
-		S.pop();
+		u = tmpSt.top();
+		tmpSt.pop();
 		if(u==_ID_end){
 				std::cout<<"znaleziono"<<std::endl;
-				s = S.top();
-				S.push(u);
+				s = tmpSt.top();
+				tmpSt.push(u);
 
 				this->stops[s]->parent = this->stops[u];
 				std::cout<<s<<std::endl;
@@ -50,7 +50,7 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 			s=this->stops[u]->get_connection_ID(i);
 
 			if(this->stops[s]->colour =='w'){
-						S.push(s);
+				tmpSt.push(s);
 						this->stops[s]->colour = 'b';
 						std::cout<<s<<std::endl;
 						this->stops[s]->parent = this->stops[u];
