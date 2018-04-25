@@ -71,4 +71,5 @@
  32 1 21037 GAJ
 21037 GAJ
  32 1 21029 Œwieradowska
+ 32 1 21029 Œwieradowska
 X
