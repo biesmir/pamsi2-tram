@@ -22,7 +22,7 @@ std::queue<int> graph::dfs(int _ID_source, int _ID_end){
 		this->stops[i]->colour='w';
 	}
 	int u = _ID_source;
-	int s;
+	int s,z;
 	this->stops[u]->colour='b';
 	bool end=false;
 
@@ -37,6 +37,12 @@ std::queue<int> graph::dfs(int _ID_source, int _ID_end){
 		S.pop();
 		if(u==_ID_end){
 				std::cout<<"znaleziono"<<std::endl;
+				/*
+				s=this->stops[u]->get_connection_ID(???);
+				this->stops[s]->parent = this->stops[u];
+
+				this->stops[s]->time = this->stops[u]->get_connection_time(i);
+				*/
 				end=true;
 				break;
 		}
@@ -48,6 +54,7 @@ std::queue<int> graph::dfs(int _ID_source, int _ID_end){
 			if(this->stops[s]->colour =='w'){
 						S.push(s);
 						this->stops[s]->colour = 'b';
+						std::cout<<s<<std::endl;
 						this->stops[s]->parent = this->stops[u];
 						this->stops[s]->time = this->stops[u]->get_connection_time(i);
 						std::cout<<s<<std::endl;
@@ -61,13 +68,11 @@ std::queue<int> graph::dfs(int _ID_source, int _ID_end){
 
 	tmp = this->stops[s];
 
-			do{
-		Rroute.push(tmp->get_ID());
-	}while( (tmp = tmp->parent) );
+	route.push(tmp->get_ID());
 
-			while(!Rroute.empty()){
-				route.push(Rroute.top());
-				Rroute.pop();
-			}
+	while( tmp->parent != NULL){
+			tmp = tmp -> parent;
+			route.push(tmp->get_ID());
+		}
 	return route;
 }
