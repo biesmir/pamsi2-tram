@@ -80,4 +80,5 @@
  6 1 24015 KOWALE
 24015 KOWALE
  6 1 24013 Bociania
+ 6 1 24013 Bociania
 X

@@ -59,4 +59,5 @@
  -1 1 20666 S³owiañska
 20666 S³owiañska
  -1 1 20628 Nowowiejska
+ -1 1 20628 Nowowiejska
 X
