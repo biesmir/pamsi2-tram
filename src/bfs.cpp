@@ -39,7 +39,6 @@ std::stack<int> graph::bfs(int _ID_source, int _ID_end){
 					std::cout<<"znaleziono"<<std::endl;
 					this->stops[s]->parent = this->stops[u];
 
-					this->stops[s]->time = this->stops[u]->get_connection_time(i);
 					end=true;
 
 					break;
@@ -53,7 +52,6 @@ std::stack<int> graph::bfs(int _ID_source, int _ID_end){
 
 						this->stops[s]->parent = this->stops[u];
 
-						this->stops[s]->time = this->stops[u]->get_connection_time(i);
 
 
 
