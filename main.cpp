@@ -22,8 +22,11 @@ parsing(czy_dojade, "../Data/5.txt");
 parsing(czy_dojade, "../Data/6.txt");
 
 
-find(czy_dojade, 'b', 2, 70);
+find(czy_dojade, 'b', 2, 34);
 
+find(czy_dojade, 'd', 2, 34);
+std::cout<<czy_dojade.get_name(2)<<std::endl;
+std::cout<<czy_dojade.get_name(34)<<std::endl;
 	return 0;
 }
 

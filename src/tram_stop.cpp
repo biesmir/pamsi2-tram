@@ -14,9 +14,9 @@
 tram_stop::tram_stop(int _ID, std::string _name)
 :ID(_ID),
  name(_name),
- time(0),
  parent(NULL),
- colour('w')
+ colour('w'),
+ connect(-2)
 {
 
 }
@@ -69,3 +69,5 @@ std::shared_ptr<tram_stop> tram_stop::get_connection(int i){
 int tram_stop::get_connection_ID(int i){
 	return this->conn[i].get_second_stop()->get_ID();
 }
+
+
