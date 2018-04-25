@@ -26,6 +26,7 @@ private:
 public:
 	char colour;
 	std::shared_ptr<tram_stop> parent;
+	int connect;
 
  tram_stop(int ID, std::string _name);
  tram_stop();
