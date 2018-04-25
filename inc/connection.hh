@@ -55,6 +55,8 @@ std::shared_ptr<tram_stop> get_second_stop(){
 
 void add_line(short int _line);
 
+
+
 };
 
 #endif /* INC_POLACZENIE_HH_ */

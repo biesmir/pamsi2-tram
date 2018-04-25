@@ -39,6 +39,9 @@ bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 		std::cerr<<"błąd dodawania połączenia: błędny numer linii"<<std::endl;
 		return 0;
 	}
+
+
+
 	connection tmp1((begin->get_ID() * 1000 + end->get_ID()),_time, _line, end, end->get_ID());
 	connection tmp2((end->get_ID() * 1000 + begin->get_ID()),_time, _line, begin, begin->get_ID());
 	begin->conn.push_back(tmp1);

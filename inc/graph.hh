@@ -40,7 +40,7 @@ public:
 
 	std::stack<int> bfs(int _ID_begin, int _ID_end);
 
-	std::queue< int >dfs(int source, int end);
+	std::stack< int >dfs(int source, int end);
 
 	friend void find(graph, char, int, int);
 

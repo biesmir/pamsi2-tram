@@ -99,7 +99,7 @@ void find(graph map, char algoritm, int source, int end){
 
 	case 'd':	//depth first search
 
-	//	route = map.dfs(source,end);
+		route = map.dfs(source,end);
 
 		while(!route.empty()){
 			std::cout<<map.stops[route.top()]->get_name()<<" ";

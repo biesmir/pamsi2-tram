@@ -17,9 +17,12 @@ parsing(czy_dojade, "../Data/1.txt");
 parsing(czy_dojade, "../Data/4.txt");
 parsing(czy_dojade, "../Data/0p.txt");
 parsing(czy_dojade, "../Data/2.txt");
+parsing(czy_dojade, "../Data/0l.txt");
+parsing(czy_dojade, "../Data/5.txt");
+parsing(czy_dojade, "../Data/6.txt");
 
 
-find(czy_dojade, 'b', 2, 30);
+find(czy_dojade, 'b', 2, 49);
 
 	return 0;
 }

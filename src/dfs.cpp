@@ -13,16 +13,16 @@
 #include <stack>
 
 
-std::queue<int> graph::dfs(int _ID_source, int _ID_end){
-	std::queue<int>  route;
+std::stack<int> graph::dfs(int _ID_source, int _ID_end){
+	std::stack<int>  route;
 	std::shared_ptr<tram_stop> tmp;
-	std::stack<int> Rroute;
+	//std::stack<int> Rroute;
 
 	for(int i = 0; i < this->size-1; i++){
 		this->stops[i]->colour='w';
 	}
 	int u = _ID_source;
-	int s,z;
+	int s;
 	this->stops[u]->colour='b';
 	bool end=false;
 
