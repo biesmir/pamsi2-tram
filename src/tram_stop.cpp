@@ -69,3 +69,5 @@ std::shared_ptr<tram_stop> tram_stop::get_connection(int i){
 int tram_stop::get_connection_ID(int i){
 	return this->conn[i].get_second_stop()->get_ID();
 }
+
+

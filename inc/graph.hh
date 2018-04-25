@@ -42,7 +42,7 @@ public:
 
 	std::stack< int >dfs(int source, int end);
 
-	friend void find(graph, char, int, int);
+	friend void find_and_print(graph, char, int, int);
 
 };
 

@@ -52,6 +52,12 @@ int get_connection_time(int i){
 	return conn[i].get_time();
 }
 
+
+
+bool check_connection(int i, int _line){
+	return this->conn[i].check_line(_line);
+}
+
 std::shared_ptr<tram_stop> get_connection(int i);
 
 };
