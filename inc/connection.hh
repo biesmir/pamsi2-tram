@@ -40,6 +40,8 @@ connection(int _ID, int _time, int _line,std::shared_ptr<tram_stop> _stop, int _
 :time(_time), ID(_ID), next(_stop), next_stop_ID(_next_ID)
 
 {
+	for (int i=0; i<35; i++)
+		trams[i]=false;
 	trams[_line]=true;
 }
 
@@ -50,6 +52,9 @@ int get_time(){
 std::shared_ptr<tram_stop> get_second_stop(){
 	return next;
 }
+
+void add_line(short int _line);
+
 };
 
 #endif /* INC_POLACZENIE_HH_ */
