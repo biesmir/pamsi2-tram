@@ -40,6 +40,17 @@ bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 		return 0;
 	}
 
+	for(unsigned int i = 0; i< begin->conn.size();i++)
+		if(begin->conn[i].get_ID() == (begin->get_ID() * 1000 + end->get_ID())){
+			begin->conn[i].add_line(_line);
+
+			for(unsigned int i = 0; i< end->conn.size();i++)
+				if(end->conn[i].get_ID() == (end->get_ID() * 1000 + begin->get_ID())){
+					end->conn[i].add_line(_line);
+
+				}
+			return 1;
+		}
 
 
 	connection tmp1((begin->get_ID() * 1000 + end->get_ID()),_time, _line, end, end->get_ID());

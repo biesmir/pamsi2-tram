@@ -22,7 +22,7 @@ parsing(czy_dojade, "../Data/5.txt");
 parsing(czy_dojade, "../Data/6.txt");
 
 
-find(czy_dojade, 'b', 2, 49);
+find(czy_dojade, 'b', 2, 70);
 
 	return 0;
 }
