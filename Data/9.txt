@@ -8,51 +8,51 @@
  9 1 11236 Jaworowa
 11236 Jaworowa
  9 1 11238 Weigla(Szpital)
- 9 1 11234 Wiœniowa
+ 9 2 11234 Wiœniowa
 11234 Wiœniowa
- 9 1 11236 Jaworowa
- 9 1 11232 UniwersytetEkonomiczny
+ 9 2 11236 Jaworowa
+ 9 2 11232 UniwersytetEkonomiczny
 11232 UniwersytetEkonomiczny
- 9 1 11234 Wiœniowa
+ 9 2 11234 Wiœniowa
  9 1 11036 Sanocka
 11036 Sanocka
  9 1 11232 UniwersytetEkonomiczny
- 9 1 21002 DWORZECAUTOBUSOWY
+ 9 3 21002 DWORZECAUTOBUSOWY
 21002 DWORZECAUTOBUSOWY
- 9 1 11036 Sanocka
- 9 1 20268 DWORZECG£ÓWNY
+ 9 3 11036 Sanocka
+ 9 3 20268 DWORZECG£ÓWNY
 20268 DWORZECG£ÓWNY
- 9 1 21002 DWORZECAUTOBUSOWY
- 9 1 10222 WzgórzePartyzantów
+ 9 3 21002 DWORZECAUTOBUSOWY
+ 9 2 10222 WzgórzePartyzantów
 10222 WzgórzePartyzantów
- 9 1 20268 DWORZECG£ÓWNY
- 9 1 10021 GALERIADOMINIKAÑSKA
+ 9 2 20268 DWORZECG£ÓWNY
+ 9 3 10021 GALERIADOMINIKAÑSKA
 10021 GALERIADOMINIKAÑSKA
- 9 1 10222 WzgórzePartyzantów
+ 9 3 10222 WzgórzePartyzantów
  9 1 10027 pl.NowyTarg
 10027 pl.NowyTarg
  9 1 10021 GALERIADOMINIKAÑSKA
  9 1 10023 HalaTargowa
 10023 HalaTargowa
  9 1 10027 pl.NowyTarg
- 9 1 20657 pl.Bema
+ 9 3 20657 pl.Bema
 20657 pl.Bema
- 9 1 10023 HalaTargowa
- 9 1 20801 OgródBotaniczny
+ 9 3 10023 HalaTargowa
+ 9 3 20801 OgródBotaniczny
 20801 OgródBotaniczny
- 9 1 20657 pl.Bema
+ 9 3 20657 pl.Bema
  9 1 20803 Górnickiego
 20803 Górnickiego
  9 1 20801 OgródBotaniczny
  9 1 20805 Piastowska
 20805 Piastowska
  9 1 20803 Górnickiego
- 9 1 20807 Grunwaldzka
+ 9 2 20807 Grunwaldzka
 20807 Grunwaldzka
- 9 1 20805 Piastowska
- 9 1 24201 Kochanowskiego
+ 9 2 20805 Piastowska
+ 9 3 24201 Kochanowskiego
 24201 Kochanowskiego
- 9 1 20807 Grunwaldzka
+ 9 3 20807 Grunwaldzka
  9 1 24203 Chopina
 24203 Chopina
  9 1 24201 Kochanowskiego

@@ -8,72 +8,72 @@
  20 1 11608 Fio³kowa
 11608 Fio³kowa
  20 1 11610 GRABISZYÑSKA(Cmentarz)
- 20 1 11660 FAT
+ 20 2 11660 FAT
 11660 FAT
- 20 1 11608 Fio³kowa
+ 20 2 11608 Fio³kowa
  20 1 11658 AlejaPracy
 11658 AlejaPracy
  20 1 11660 FAT
  20 1 11652 OjcaBeyzyma
 11652 OjcaBeyzyma
  20 1 11658 AlejaPracy
- 20 1 11454 Mielecka
+ 20 2 11454 Mielecka
 11454 Mielecka
- 20 1 11652 OjcaBeyzyma
+ 20 2 11652 OjcaBeyzyma
  20 1 11452 Gajowicka
 11452 Gajowicka
  20 1 11454 Mielecka
- 20 1 11252 HALLERA
+ 20 2 11252 HALLERA
 11252 HALLERA
- 20 1 11452 Gajowicka
+ 20 2 11452 Gajowicka
  20 1 11208 Sztabowa
 11208 Sztabowa
  20 1 11252 HALLERA
  20 1 11206 Rondo
 11206 Rondo
  20 1 11208 Sztabowa
- 20 1 11204 Wielka
+ 20 2 11204 Wielka
 11204 Wielka
- 20 1 11206 Rondo
- 20 1 11202 Zaolziañska
+ 20 2 11206 Rondo
+ 20 2 11202 Zaolziañska
 11202 Zaolziañska
- 20 1 11204 Wielka
- 20 1 10234 Arkady(Capitol)
+ 20 2 11204 Wielka
+ 20 3 10234 Arkady(Capitol)
 10234 Arkady(Capitol)
- 20 1 11202 Zaolziañska
- 20 1 10232 Renoma
+ 20 3 11202 Zaolziañska
+ 20 2 10232 Renoma
 10232 Renoma
- 20 1 10234 Arkady(Capitol)
- 20 1 10240 NarodoweForumMuzyki
+ 20 2 10234 Arkady(Capitol)
+ 20 3 10240 NarodoweForumMuzyki
 10240 NarodoweForumMuzyki
- 20 1 10232 Renoma
- 20 1 10003 Rynek
+ 20 3 10232 Renoma
+ 20 3 10003 Rynek
 10003 Rynek
- 20 1 10240 NarodoweForumMuzyki
- 20 1 10401 PL.JANAPAW£AII
+ 20 3 10240 NarodoweForumMuzyki
+ 20 2 10401 PL.JANAPAW£AII
 10401 PL.JANAPAW£AII
- 20 1 10003 Rynek
- 20 1 10403 M³odychTechników
+ 20 2 10003 Rynek
+ 20 2 10403 M³odychTechników
 10403 M³odychTechników
- 20 1 10401 PL.JANAPAW£AII
+ 20 2 10401 PL.JANAPAW£AII
  20 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
 10405 pl.Strzegomski(MuzeumWspó³czesne)
  20 1 10403 M³odychTechników
- 20 1 10407 ZACHODNIA(Stacjakolejowa)
+ 20 2 10407 ZACHODNIA(Stacjakolejowa)
 10407 ZACHODNIA(Stacjakolejowa)
- 20 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
- 20 1 12201 NiedŸwiedzia
+ 20 2 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 20 2 12201 NiedŸwiedzia
 12201 NiedŸwiedzia
- 20 1 10407 ZACHODNIA(Stacjakolejowa)
+ 20 2 10407 ZACHODNIA(Stacjakolejowa)
  20 1 12203 Ma³opanewska
 12203 Ma³opanewska
  20 1 12201 NiedŸwiedzia
- 20 1 12205 Kwiska
+ 20 2 12205 Kwiska
 12205 Kwiska
- 20 1 12203 Ma³opanewska
- 20 1 12401 DHAstra
+ 20 2 12203 Ma³opanewska
+ 20 2 12401 DHAstra
 12401 DHAstra
- 20 1 12205 Kwiska
+ 20 2 12205 Kwiska
  20 1 12403 ParkZachodni
 12403 ParkZachodni
  20 1 12401 DHAstra
@@ -83,24 +83,24 @@
  20 1 12407 Metalowców
 12407 Metalowców
  20 1 12405 Bajana
- 20 1 12409 PILCZYCE
+ 20 2 12409 PILCZYCE
 12409 PILCZYCE
- 20 1 12407 Metalowców
+ 20 2 12407 Metalowców
  20 1 18013 StadionWroc³aw(Lotnicza)
 18013 StadionWroc³aw(Lotnicza)
  20 1 12409 PILCZYCE
- 20 1 18001 Glinianki
+ 20 2 18001 Glinianki
 18001 Glinianki
- 20 1 18013 StadionWroc³aw(Lotnicza)
+ 20 2 18013 StadionWroc³aw(Lotnicza)
  20 1 18017 Kosmonautów(Nowe¯erniki)
 18017 Kosmonautów(Nowe¯erniki)
  20 1 18001 Glinianki
  20 1 18003 Grabowa
 18003 Grabowa
  20 1 18017 Kosmonautów(Nowe¯erniki)
- 20 1 18015 Kosmonautów(Szpital)
+ 20 2 18015 Kosmonautów(Szpital)
 18015 Kosmonautów(Szpital)
- 20 1 18003 Grabowa
+ 20 2 18003 Grabowa
  20 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
 18005 Kamiennogórska(Oœrodekdlaniewidomych)
  20 1 18015 Kosmonautów(Szpital)

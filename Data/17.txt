@@ -14,51 +14,51 @@
  17 1 24204 Chopina
 24204 Chopina
  17 1 24206 Kar³owicza
- 17 1 24202 Kochanowskiego
+ 17 2 24202 Kochanowskiego
 24202 Kochanowskiego
- 17 1 24204 Chopina
+ 17 2 24204 Chopina
  17 1 20808 Grunwaldzka
 20808 Grunwaldzka
  17 1 24202 Kochanowskiego
- 17 1 20806 Piastowska
+ 17 2 20806 Piastowska
 20806 Piastowska
- 17 1 20808 Grunwaldzka
+ 17 2 20808 Grunwaldzka
  17 1 20804 Górnickiego
 20804 Górnickiego
  17 1 20806 Piastowska
- 17 1 20802 OgródBotaniczny
+ 17 2 20802 OgródBotaniczny
 20802 OgródBotaniczny
- 17 1 20804 Górnickiego
- 17 1 20622 pl.Bema
+ 17 2 20804 Górnickiego
+ 17 3 20622 pl.Bema
 20622 pl.Bema
- 17 1 20802 OgródBotaniczny
- 17 1 10024 HalaTargowa
+ 17 3 20802 OgródBotaniczny
+ 17 2 10024 HalaTargowa
 10024 HalaTargowa
- 17 1 20622 pl.Bema
+ 17 2 20622 pl.Bema
  17 1 10026 pl.NowyTarg
 10026 pl.NowyTarg
  17 1 10024 HalaTargowa
  17 1 10022 GALERIADOMINIKAÑSKA
 10022 GALERIADOMINIKAÑSKA
  17 1 10026 pl.NowyTarg
- 17 1 10051 ParkStaromiejski
+ 17 2 10051 ParkStaromiejski
 10051 ParkStaromiejski
- 17 1 10022 GALERIADOMINIKAÑSKA
- 17 1 10053 Opera
+ 17 2 10022 GALERIADOMINIKAÑSKA
+ 17 2 10053 Opera
 10053 Opera
- 17 1 10051 ParkStaromiejski
- 17 1 10233 Arkady(Capitol)
+ 17 2 10051 ParkStaromiejski
+ 17 4 10233 Arkady(Capitol)
 10233 Arkady(Capitol)
- 17 1 10053 Opera
- 17 1 11201 Zaolziañska
+ 17 4 10053 Opera
+ 17 2 11201 Zaolziañska
 11201 Zaolziañska
- 17 1 10233 Arkady(Capitol)
+ 17 2 10233 Arkady(Capitol)
  17 1 11203 Wielka
 11203 Wielka
  17 1 11201 Zaolziañska
- 17 1 11205 Rondo
+ 17 2 11205 Rondo
 11205 Rondo
- 17 1 11203 Wielka
+ 17 2 11203 Wielka
  17 1 11207 Sztabowa
 11207 Sztabowa
  17 1 11205 Rondo
@@ -68,15 +68,15 @@
  17 1 11211 Jastrzêbia
 11211 Jastrzêbia
  17 1 11209 HALLERA
- 17 1 11213 Orla
+ 17 2 11213 Orla
 11213 Orla
- 17 1 11211 Jastrzêbia
- 17 1 11215 KRZYKI
+ 17 2 11211 Jastrzêbia
+ 17 2 11215 KRZYKI
 11215 KRZYKI
- 17 1 11213 Orla
- 17 1 16401 RadioiTelewizja
+ 17 2 11213 Orla
+ 17 2 16401 RadioiTelewizja
 16401 RadioiTelewizja
- 17 1 11215 KRZYKI
+ 17 2 11215 KRZYKI
  17 1 16403 PrzyjaŸni
 16403 PrzyjaŸni
  17 1 16401 RadioiTelewizja

@@ -17,48 +17,48 @@
  3 1 25002 Krakowska
 25002 Krakowska
  3 1 25004 KRAKOWSKA(Centrumhandlowe)
- 3 1 20206 NaNiskich£¹kach
+ 3 2 20206 NaNiskich£¹kach
 20206 NaNiskich£¹kach
- 3 1 25002 Krakowska
+ 3 2 25002 Krakowska
  3 1 20204 pl.Zgody
 20204 pl.Zgody
  3 1 20206 NaNiskich£¹kach
- 3 1 20202 pl.Wróblewskiego
+ 3 3 20202 pl.Wróblewskiego
 20202 pl.Wróblewskiego
- 3 1 20204 pl.Zgody
- 3 1 10032 GALERIADOMINIKAÑSKA
+ 3 3 20204 pl.Zgody
+ 3 5 10032 GALERIADOMINIKAÑSKA
 10032 GALERIADOMINIKAÑSKA
- 3 1 20202 pl.Wróblewskiego
- 3 1 10001 Œwidnicka
+ 3 5 20202 pl.Wróblewskiego
+ 3 2 10001 Œwidnicka
 10001 Œwidnicka
- 3 1 10032 GALERIADOMINIKAÑSKA
- 3 1 10003 Rynek
+ 3 2 10032 GALERIADOMINIKAÑSKA
+ 3 3 10003 Rynek
 10003 Rynek
- 3 1 10001 Œwidnicka
- 3 1 10401 PL.JANAPAW£AII
+ 3 3 10001 Œwidnicka
+ 3 2 10401 PL.JANAPAW£AII
 10401 PL.JANAPAW£AII
- 3 1 10003 Rynek
- 3 1 10403 M³odychTechników
+ 3 2 10003 Rynek
+ 3 2 10403 M³odychTechników
 10403 M³odychTechników
- 3 1 10401 PL.JANAPAW£AII
+ 3 2 10401 PL.JANAPAW£AII
  3 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
 10405 pl.Strzegomski(MuzeumWspó³czesne)
  3 1 10403 M³odychTechników
- 3 1 10407 ZACHODNIA(Stacja kolejowa)
+ 3 2 10407 ZACHODNIA(Stacja kolejowa)
 10407 ZACHODNIA(Stacja kolejowa)
- 3 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
- 3 1 12201 NiedŸwiedzia
+ 3 2 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 3 2 12201 NiedŸwiedzia
 12201 NiedŸwiedzia
- 3 1 10407 ZACHODNIA(Stacja kolejowa)
+ 3 2 10407 ZACHODNIA(Stacja kolejowa)
  3 1 12203 Ma³opanewska
 12203 Ma³opanewska
  3 1 12201 NiedŸwiedzia
- 3 1 12205 Kwiska
+ 3 2 12205 Kwiska
 12205 Kwiska
- 3 1 12203 Ma³opanewska
- 3 1 12401 DHAstra
+ 3 2 12203 Ma³opanewska
+ 3 2 12401 DHAstra
 12401 DHAstra
- 3 1 12205 Kwiska
+ 3 2 12205 Kwiska
  3 1 12403 ParkZachodni
 12403 ParkZachodni
  3 1 12401 DHAstra
@@ -68,30 +68,30 @@
  3 1 12407 Metalowców
 12407 Metalowców
  3 1 12405 Bajana
- 3 1 12409 PILCZYCE
+ 3 2 12409 PILCZYCE
 12409 PILCZYCE
- 3 1 12407 Metalowców
+ 3 2 12407 Metalowców
  3 1 18013 StadionWroc³aw(Lotnicza)
 18013 StadionWroc³aw(Lotnicza)
  3 1 12409 PILCZYCE
- 3 1 18001 Glinianki
+ 3 2 18001 Glinianki
 18001 Glinianki
- 3 1 18013 StadionWroc³aw(Lotnicza)
+ 3 2 18013 StadionWroc³aw(Lotnicza)
  3 1 18017 Kosmonautów(Nowe¯erniki)
 18017 Kosmonautów(Nowe¯erniki)
  3 1 18001 Glinianki
  3 1 18003 Grabowa
 18003 Grabowa
  3 1 18017 Kosmonautów(Nowe¯erniki)
- 3 1 18015 Kosmonautów(Szpital)
+ 3 2 18015 Kosmonautów(Szpital)
 18015 Kosmonautów(Szpital)
- 3 1 18003 Grabowa
+ 3 2 18003 Grabowa
  3 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
 18005 Kamiennogórska(Oœrodekdlaniewidomych)
  3 1 18015 Kosmonautów(Szpital)
- 3 1 18007 Z³otnicka
+ 3 2 18007 Z³otnicka
 18007 Z³otnicka
- 3 1 18005 Kamiennogórska(Oœrodekdlaniewidomych)
+ 3 2 18005 Kamiennogórska(Oœrodekdlaniewidomych)
  3 1 18009 Wschowska
 18009 Wschowska
  3 1 18007 Z³otnicka

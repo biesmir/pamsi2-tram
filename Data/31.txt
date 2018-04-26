@@ -1,7 +1,7 @@
 18402 STADIONWROC£AW(Królewiecka)
- 31 1 12612 Górnicza
+ 31 2 12612 Górnicza
 12612 Górnicza
- 31 1 18402 STADIONWROC£AW(Królewiecka)
+ 31 2 18402 STADIONWROC£AW(Królewiecka)
  31 1 12606 Modra
 12606 Modra
  31 1 12612 Górnicza
@@ -11,48 +11,48 @@
  31 1 12602 Kolista
 12602 Kolista
  31 1 12604 Pilczycka(Anima)
- 31 1 12206 Kwiska
+ 31 3 12206 Kwiska
 12206 Kwiska
- 31 1 12602 Kolista
+ 31 3 12602 Kolista
  31 1 12204 Ma³opanewska
 12204 Ma³opanewska
  31 1 12206 Kwiska
- 31 1 12202 NiedŸwiedzia
+ 31 2 12202 NiedŸwiedzia
 12202 NiedŸwiedzia
- 31 1 12204 Ma³opanewska
- 31 1 10408 ZACHODNIA(Stacjakolejowa)
+ 31 2 12204 Ma³opanewska
+ 31 2 10408 ZACHODNIA(Stacjakolejowa)
 10408 ZACHODNIA(Stacjakolejowa)
- 31 1 12202 NiedŸwiedzia
- 31 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
+ 31 2 12202 NiedŸwiedzia
+ 31 2 10406 pl.Strzegomski(MuzeumWspó³czesne)
 10406 pl.Strzegomski(MuzeumWspó³czesne)
- 31 1 10408 ZACHODNIA(Stacjakolejowa)
+ 31 2 10408 ZACHODNIA(Stacjakolejowa)
  31 1 10404 M³odychTechników
 10404 M³odychTechników
  31 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
- 31 1 10402 PL.JANAPAW£AII
+ 31 2 10402 PL.JANAPAW£AII
 10402 PL.JANAPAW£AII
- 31 1 10404 M³odychTechników
- 31 1 10274 pl.Orl¹tLwowskich
+ 31 2 10404 M³odychTechników
+ 31 2 10274 pl.Orl¹tLwowskich
 10274 pl.Orl¹tLwowskich
- 31 1 10402 PL.JANAPAW£AII
- 31 1 10272 pl.Legionów
+ 31 2 10402 PL.JANAPAW£AII
+ 31 2 10272 pl.Legionów
 10272 pl.Legionów
- 31 1 10274 pl.Orl¹tLwowskich
- 31 1 10270 Arkady(Capitol)
+ 31 2 10274 pl.Orl¹tLwowskich
+ 31 2 10270 Arkady(Capitol)
 10270 Arkady(Capitol)
- 31 1 10272 pl.Legionów
- 31 1 11001 DWORZECAUTOBUSOWY
+ 31 2 10272 pl.Legionów
+ 31 3 11001 DWORZECAUTOBUSOWY
 11001 DWORZECAUTOBUSOWY
- 31 1 10270 Arkady(Capitol)
- 31 1 21005 Joannitów
+ 31 3 10270 Arkady(Capitol)
+ 31 2 21005 Joannitów
 21005 Joannitów
- 31 1 11001 DWORZECAUTOBUSOWY
+ 31 2 11001 DWORZECAUTOBUSOWY
  31 1 21007 Gajowa
 21007 Gajowa
  31 1 21005 Joannitów
- 31 1 21009 Prudnicka
+ 31 2 21009 Prudnicka
 21009 Prudnicka
- 31 1 21007 Gajowa
+ 31 2 21007 Gajowa
  31 1 21011 Kamienna
 21011 Kamienna
  31 1 21009 Prudnicka
