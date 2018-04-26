@@ -11,42 +11,42 @@
  32 1 12602 Kolista
 12602 Kolista
  32 1 12604 Pilczycka(Anima)
- 32 1 12206 Kwiska
+ 32 3 12206 Kwiska
 12206 Kwiska
- 32 1 12602 Kolista
+ 32 3 12602 Kolista
  32 1 12204 Ma³opanewska
 12204 Ma³opanewska
  32 1 12206 Kwiska
- 32 1 12202 NiedŸwiedzia
+ 32 2 12202 NiedŸwiedzia
 12202 NiedŸwiedzia
- 32 1 12204 Ma³opanewska
- 32 1 10408 ZACHODNIA(Stacjakolejowa)
+ 32 2 12204 Ma³opanewska
+ 32 2 10408 ZACHODNIA(Stacjakolejowa)
 10408 ZACHODNIA(Stacjakolejowa)
- 32 1 12202 NiedŸwiedzia
- 32 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
+ 32 2 12202 NiedŸwiedzia
+ 32 2 10406 pl.Strzegomski(MuzeumWspó³czesne)
 10406 pl.Strzegomski(MuzeumWspó³czesne)
- 32 1 10408 ZACHODNIA(Stacjakolejowa)
+ 32 2 10408 ZACHODNIA(Stacjakolejowa)
  32 1 10404 M³odychTechników
 10404 M³odychTechników
  32 1 10406 pl.Strzegomski(MuzeumWspó³czesne)
- 32 1 10402 PL.JANAPAW£AII
+ 32 2 10402 PL.JANAPAW£AII
 10402 PL.JANAPAW£AII
- 32 1 10404 M³odychTechników
- 32 1 10274 pl.Orl¹tLwowskich
+ 32 2 10404 M³odychTechników
+ 32 2 10274 pl.Orl¹tLwowskich
 10274 pl.Orl¹tLwowskich
- 32 1 10402 PL.JANAPAW£AII
- 32 1 10272 pl.Legionów
+ 32 2 10402 PL.JANAPAW£AII
+ 32 2 10272 pl.Legionów
 10272 pl.Legionów
- 32 1 10274 pl.Orl¹tLwowskich
- 32 1 10270 Arkady(Capitol)
+ 32 2 10274 pl.Orl¹tLwowskich
+ 32 2 10270 Arkady(Capitol)
 10270 Arkady(Capitol)
- 32 1 10272 pl.Legionów
- 32 1 11001 DWORZECAUTOBUSOWY
+ 32 2 10272 pl.Legionów
+ 32 3 11001 DWORZECAUTOBUSOWY
 11001 DWORZECAUTOBUSOWY
- 32 1 10270 Arkady(Capitol)
- 32 1 21005 Joannitów
+ 32 3 10270 Arkady(Capitol)
+ 32 2 21005 Joannitów
 21005 Joannitów
- 32 1 11001 DWORZECAUTOBUSOWY
+ 32 2 11001 DWORZECAUTOBUSOWY
  32 1 21007 Gajowa
 21007 Gajowa
  32 1 21005 Joannitów
@@ -69,7 +69,4 @@
 21029 Œwieradowska
  32 1 21027 Morwowa
  32 1 21037 GAJ
-21037 GAJ
- 32 1 21029 Œwieradowska
- 32 1 21029 Œwieradowska
 X

@@ -11,39 +11,39 @@
  24 1 23004 Serbska(C.K.Agora)
 23004 Serbska(C.K.Agora)
  24 1 23006 OSOBOWICKA(CmentarzII)
- 24 1 23002 mostOsobowicki
+ 24 2 23002 mostOsobowicki
 23002 mostOsobowicki
- 24 1 23004 Serbska(C.K.Agora)
- 24 1 10606 Kleczkowska
+ 24 2 23004 Serbska(C.K.Agora)
+ 24 2 10606 Kleczkowska
 10606 Kleczkowska
- 24 1 23002 mostOsobowicki
- 24 1 10604 PL.STASZICA
+ 24 2 23002 mostOsobowicki
+ 24 3 10604 PL.STASZICA
 10604 PL.STASZICA
- 24 1 10606 Kleczkowska
- 24 1 10654 Pomorska
+ 24 3 10606 Kleczkowska
+ 24 2 10654 Pomorska
 10654 Pomorska
- 24 1 10604 PL.STASZICA
- 24 1 10652 Dmowskiego
+ 24 2 10604 PL.STASZICA
+ 24 2 10652 Dmowskiego
 10652 Dmowskiego
- 24 1 10654 Pomorska
- 24 1 10452 PL.JANAPAW£AII
+ 24 2 10654 Pomorska
+ 24 2 10452 PL.JANAPAW£AII
 10452 PL.JANAPAW£AII
- 24 1 10652 Dmowskiego
- 24 1 10274 pl.Orl¹tLwowskich
+ 24 2 10652 Dmowskiego
+ 24 2 10274 pl.Orl¹tLwowskich
 10274 pl.Orl¹tLwowskich
- 24 1 10452 PL.JANAPAW£AII
- 24 1 10272 pl.Legionów
+ 24 2 10452 PL.JANAPAW£AII
+ 24 2 10272 pl.Legionów
 10272 pl.Legionów
- 24 1 10274 pl.Orl¹tLwowskich
- 24 1 10245 Grabiszyñska
+ 24 2 10274 pl.Orl¹tLwowskich
+ 24 3 10245 Grabiszyñska
 10245 Grabiszyñska
- 24 1 10272 pl.Legionów
+ 24 3 10272 pl.Legionów
  24 1 11401 Pereca
 11401 Pereca
  24 1 10245 Grabiszyñska
- 24 1 11403 Stalowa
+ 24 2 11403 Stalowa
 11403 Stalowa
- 24 1 11401 Pereca
+ 24 2 11401 Pereca
  24 1 11405 pl. Srebrny
 11405 pl. Srebrny
  24 1 11403 Stalowa
@@ -53,77 +53,8 @@
  24 1 11603 Hutmen
 11603 Hutmen
  24 1 11601 Bzowa(CentrumZajezdnia)
- 24 1 11605 FAT
+ 24 2 11605 FAT
 11605 FAT
- 24 1 11603 Hutmen
- 24 1 11660 FAT
-11660 FAT
- 24 1 11605 FAT
- 24 1 11660 FAT
-11660 FAT
- 24 1 11660 FAT
- 24 1 11658 AlejaPracy
-11658 AlejaPracy
- 24 1 11660 FAT
- 24 1 11652 OjcaBeyzyma
-11652 OjcaBeyzyma
- 24 1 11658 AlejaPracy
- 24 1 11454 Mielecka
-11454 Mielecka
- 24 1 11652 OjcaBeyzyma
- 24 1 11452 Gajowicka
-11452 Gajowicka
- 24 1 11454 Mielecka
- 24 1 11252 HALLERA
-11252 HALLERA
- 24 1 11452 Gajowicka
- 24 1 11208 Sztabowa
-11208 Sztabowa
- 24 1 11252 HALLERA
- 24 1 11206 Rondo
-11206 Rondo
- 24 1 11208 Sztabowa
- 24 1 11204 Wielka
-11204 Wielka
- 24 1 11206 Rondo
- 24 1 11202 Zaolziañska
-11202 Zaolziañska
- 24 1 11204 Wielka
- 24 1 10234 Arkady(Capitol)
-10234 Arkady(Capitol)
- 24 1 11202 Zaolziañska
- 24 1 10232 Renoma
-10232 Renoma
- 24 1 10234 Arkady(Capitol)
- 24 1 10240 NarodoweForumMuzyki
-10240 NarodoweForumMuzyki
- 24 1 10232 Renoma
- 24 1 10005 Rynek
-10005 Rynek
- 24 1 10240 NarodoweForumMuzyki
- 24 1 10601 Pomorska
-10601 Pomorska
- 24 1 10005 Rynek
- 24 1 10603 PL.STASZICA
-10603 PL.STASZICA
- 24 1 10601 Pomorska
- 24 1 10605 Kleczkowska
-10605 Kleczkowska
- 24 1 10603 PL.STASZICA
- 24 1 23001 mostOsobowicki
-23001 mostOsobowicki
- 24 1 10605 Kleczkowska
- 24 1 23003 Serbska(C.K.Agora)
-23003 Serbska(C.K.Agora)
- 24 1 23001 mostOsobowicki
- 24 1 23005 OSOBOWICKA(CmentarzII)
-23005 OSOBOWICKA(CmentarzII)
- 24 1 23003 Serbska(C.K.Agora)
- 24 1 23007 OSOBOWICKA(Cmentarz)
-23007 OSOBOWICKA(Cmentarz)
- 24 1 23005 OSOBOWICKA(CmentarzII)
- 24 1 23201 MostMilenijny
-23201 MostMilenijny
- 24 1 23007 OSOBOWICKA(Cmentarz)
- 24 1 23007 OSOBOWICKA(Cmentarz)
+ 24 2 11603 Hutmen
+ 24 2 11603 Hutmen
 X

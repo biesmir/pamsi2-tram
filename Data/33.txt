@@ -14,54 +14,54 @@
  33 1 24204 Chopina
 24204 Chopina
  33 1 24206 Kar³owicza
- 33 1 24202 Kochanowskiego
+ 33 2 24202 Kochanowskiego
 24202 Kochanowskiego
- 33 1 24204 Chopina
- 33 1 20826 Bujwida
+ 33 2 24204 Chopina
+ 33 2 20826 Bujwida
 20826 Bujwida
- 33 1 24202 Kochanowskiego
- 33 1 20820 PL.GRUNWALDZKI
+ 33 2 24202 Kochanowskiego
+ 33 2 20820 PL.GRUNWALDZKI
 20820 PL.GRUNWALDZKI
- 33 1 20826 Bujwida
+ 33 2 20826 Bujwida
  33 1 20822 mostGrunwaldzki
 20822 mostGrunwaldzki
  33 1 20820 PL.GRUNWALDZKI
- 33 1 20292 Urz¹dWojewódzki
+ 33 2 20292 Urz¹dWojewódzki
 20292 Urz¹dWojewódzki
- 33 1 20822 mostGrunwaldzki
- 33 1 10032 GALERIADOMINIKAÑSKA
+ 33 2 20822 mostGrunwaldzki
+ 33 4 10032 GALERIADOMINIKAÑSKA
 10032 GALERIADOMINIKAÑSKA
- 33 1 20292 Urz¹dWojewódzki
- 33 1 10001 Œwidnicka
+ 33 4 20292 Urz¹dWojewódzki
+ 33 2 10001 Œwidnicka
 10001 Œwidnicka
- 33 1 10032 GALERIADOMINIKAÑSKA
- 33 1 10003 Rynek
+ 33 2 10032 GALERIADOMINIKAÑSKA
+ 33 3 10003 Rynek
 10003 Rynek
- 33 1 10001 Œwidnicka
- 33 1 10401 PL.JANAPAW£AII
+ 33 3 10001 Œwidnicka
+ 33 2 10401 PL.JANAPAW£AII
 10401 PL.JANAPAW£AII
- 33 1 10003 Rynek
- 33 1 10403 M³odychTechników
+ 33 2 10003 Rynek
+ 33 2 10403 M³odychTechników
 10403 M³odychTechników
- 33 1 10401 PL.JANAPAW£AII
+ 33 2 10401 PL.JANAPAW£AII
  33 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
 10405 pl.Strzegomski(MuzeumWspó³czesne)
  33 1 10403 M³odychTechników
- 33 1 10407 ZACHODNIA(Stacjakolejowa)
+ 33 2 10407 ZACHODNIA(Stacjakolejowa)
 10407 ZACHODNIA(Stacjakolejowa)
- 33 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
- 33 1 12201 NiedŸwiedzia
+ 33 2 10405 pl.Strzegomski(MuzeumWspó³czesne)
+ 33 2 12201 NiedŸwiedzia
 12201 NiedŸwiedzia
- 33 1 10407 ZACHODNIA(Stacjakolejowa)
+ 33 2 10407 ZACHODNIA(Stacjakolejowa)
  33 1 12203 Ma³opanewska
 12203 Ma³opanewska
  33 1 12201 NiedŸwiedzia
- 33 1 12205 Kwiska
+ 33 2 12205 Kwiska
 12205 Kwiska
- 33 1 12203 Ma³opanewska
- 33 1 12401 DHAstra
+ 33 2 12203 Ma³opanewska
+ 33 2 12401 DHAstra
 12401 DHAstra
- 33 1 12205 Kwiska
+ 33 2 12205 Kwiska
  33 1 12403 ParkZachodni
 12403 ParkZachodni
  33 1 12401 DHAstra
@@ -72,7 +72,4 @@
 12407 Metalowców
  33 1 12405 Bajana
  33 1 12409 PILCZYCE
-12409 PILCZYCE
- 33 1 12407 Metalowców
- 33 1 12407 Metalowców
 X

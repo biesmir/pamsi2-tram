@@ -14,45 +14,45 @@
  15 1 23010 Ba³tycka
 23010 Ba³tycka
  15 1 23024 Kamieñskiego
- 15 1 10606 Kleczkowska
+ 15 2 10606 Kleczkowska
 10606 Kleczkowska
- 15 1 23010 Ba³tycka
- 15 1 10604 PL.STASZICA
+ 15 2 23010 Ba³tycka
+ 15 3 10604 PL.STASZICA
 10604 PL.STASZICA
- 15 1 10606 Kleczkowska
- 15 1 10602 Pomorska
+ 15 3 10606 Kleczkowska
+ 15 2 10602 Pomorska
 10602 Pomorska
- 15 1 10604 PL.STASZICA
- 15 1 10006 Rynek
+ 15 2 10604 PL.STASZICA
+ 15 4 10006 Rynek
 10006 Rynek
- 15 1 10602 Pomorska
- 15 1 10241 NarodoweForumMuzyki
+ 15 4 10602 Pomorska
+ 15 2 10241 NarodoweForumMuzyki
 10241 NarodoweForumMuzyki
- 15 1 10006 Rynek
- 15 1 10243 pl.Legionów
+ 15 2 10006 Rynek
+ 15 3 10243 pl.Legionów
 10243 pl.Legionów
- 15 1 10241 NarodoweForumMuzyki
- 15 1 10270 Arkady(Capitol)
+ 15 3 10241 NarodoweForumMuzyki
+ 15 3 10270 Arkady(Capitol)
 10270 Arkady(Capitol)
- 15 1 10243 pl.Legionów
- 15 1 11001 DWORZECAUTOBUSOWY
+ 15 3 10243 pl.Legionów
+ 15 3 11001 DWORZECAUTOBUSOWY
 11001 DWORZECAUTOBUSOWY
- 15 1 10270 Arkady(Capitol)
- 15 1 11035 Sanocka
+ 15 3 10270 Arkady(Capitol)
+ 15 3 11035 Sanocka
 11035 Sanocka
- 15 1 11001 DWORZECAUTOBUSOWY
+ 15 3 11001 DWORZECAUTOBUSOWY
  15 1 11231 UniwersytetEkonomiczny
 11231 UniwersytetEkonomiczny
  15 1 11035 Sanocka
- 15 1 11233 Wiœniowa
+ 15 2 11233 Wiœniowa
 11233 Wiœniowa
- 15 1 11231 UniwersytetEkonomiczny
+ 15 2 11231 UniwersytetEkonomiczny
  15 1 11235 Jaworowa
 11235 Jaworowa
  15 1 11233 Wiœniowa
- 15 1 11237 Weigla(Szpital)
+ 15 2 11237 Weigla(Szpital)
 11237 Weigla(Szpital)
- 15 1 11235 Jaworowa
+ 15 2 11235 Jaworowa
  15 1 11239 Pu³tuska
 11239 Pu³tuska
  15 1 11237 Weigla(Szpital)

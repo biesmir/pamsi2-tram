@@ -17,42 +17,42 @@
  2 1 24402 HalaStulecia
 24402 HalaStulecia
  2 1 24404 ZOO
- 2 1 20818 Kliniki
+ 2 2 20818 Kliniki
 20818 Kliniki
- 2 1 24402 HalaStulecia
- 2 1 20820 PL.GRUNWALDZKI
+ 2 2 24402 HalaStulecia
+ 2 2 20820 PL.GRUNWALDZKI
 20820 PL.GRUNWALDZKI
- 2 1 20818 Kliniki
- 2 1 20814 Reja
+ 2 2 20818 Kliniki
+ 2 2 20814 Reja
 20814 Reja
- 2 1 20820 PL.GRUNWALDZKI
- 2 1 20812 Katedra
+ 2 2 20820 PL.GRUNWALDZKI
+ 2 2 20812 Katedra
 20812 Katedra
- 2 1 20814 Reja
+ 2 2 20814 Reja
  2 1 20282 Urz¹dWojewódzki
 20282 Urz¹dWojewódzki
  2 1 20812 Katedra
- 2 1 10032 GALERIADOMINIKAÑSKA
+ 2 5 10032 GALERIADOMINIKAÑSKA
 10032 GALERIADOMINIKAÑSKA
- 2 1 20282 Urz¹dWojewódzki
- 2 1 10221 WzgórzePartyzantów
+ 2 5 20282 Urz¹dWojewódzki
+ 2 2 10221 WzgórzePartyzantów
 10221 WzgórzePartyzantów
- 2 1 10032 GALERIADOMINIKAÑSKA
- 2 1 10223 DWORZECG£ÓWNY
+ 2 2 10032 GALERIADOMINIKAÑSKA
+ 2 3 10223 DWORZECG£ÓWNY
 10223 DWORZECG£ÓWNY
- 2 1 10221 WzgórzePartyzantów
- 2 1 10269 Arkady(Capitol)
+ 2 3 10221 WzgórzePartyzantów
+ 2 3 10269 Arkady(Capitol)
 10269 Arkady(Capitol)
- 2 1 10223 DWORZECG£ÓWNY
- 2 1 11201 Zaolziañska
+ 2 3 10223 DWORZECG£ÓWNY
+ 2 2 11201 Zaolziañska
 11201 Zaolziañska
- 2 1 10269 Arkady(Capitol)
+ 2 2 10269 Arkady(Capitol)
  2 1 11203 Wielka
 11203 Wielka
  2 1 11201 Zaolziañska
- 2 1 11205 Rondo
+ 2 2 11205 Rondo
 11205 Rondo
- 2 1 11203 Wielka
+ 2 2 11203 Wielka
  2 1 11207 Sztabowa
 11207 Sztabowa
  2 1 11205 Rondo
@@ -62,9 +62,9 @@
  2 1 11211 Jastrzêbia
 11211 Jastrzêbia
  2 1 11209 HALLERA
- 2 1 11213 Orla
+ 2 2 11213 Orla
 11213 Orla
- 2 1 11211 Jastrzêbia
+ 2 2 11211 Jastrzêbia
  2 1 11216 KRZYKI
 11216 KRZYKI
  2 1 11213 Orla
