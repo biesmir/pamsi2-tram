@@ -36,10 +36,10 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 		tmpSt.pop();
 		if(u==_ID_end){
 				std::cout<<"znaleziono"<<std::endl;
-				s = tmpSt.top();
-				tmpSt.push(u);
+				//s = tmpSt.top();
+				//tmpSt.push(u);
 
-				this->stops[s]->parent = this->stops[u];
+				//this->stops[s]->parent = this->stops[u];
 				std::cout<<s<<std::endl;
 				end=true;
 				break;
@@ -62,7 +62,7 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 
 	}
 
-	tmp = this->stops[s];
+	tmp = this->stops[u];
 
 	route.push(tmp->get_ID());
 

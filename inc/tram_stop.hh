@@ -26,7 +26,7 @@ private:
 public:
 	char colour;
 	std::shared_ptr<tram_stop> parent;
-	int connect;
+	std::shared_ptr<connection> last_connect;
 
  tram_stop(int ID, std::string _name);
  tram_stop();
@@ -59,7 +59,7 @@ bool check_connection(int i, int _line){
 	return this->conn[i].check_line(_line);
 }
 
-std::shared_ptr<tram_stop> get_connection(int i);
+std::shared_ptr<connection> get_connection(int i);
 
 };
 
