@@ -40,7 +40,6 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 				//tmpSt.push(u);
 
 				//this->stops[s]->parent = this->stops[u];
-				std::cout<<s<<std::endl;
 				end=true;
 				break;
 		}
@@ -52,7 +51,6 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 			if(this->stops[s]->colour =='w'){
 				tmpSt.push(s);
 						this->stops[s]->colour = 'b';
-						std::cout<<s<<std::endl;
 						this->stops[s]->parent = this->stops[u];
 					//	sleep(1);
 			}
