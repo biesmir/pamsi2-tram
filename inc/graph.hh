@@ -48,6 +48,13 @@ public:
 		return stops[i]->get_name();
 	}
 
+	int get_ID(std::string name){
+		for(unsigned int i = 0; i<this->stops.size() ;i++)
+			if(name == this->stops[i]->get_name())
+				return this->stops[i]->get_ID();
+		return 0;
+	}
+
 	friend void find_and_print(graph, char, int, int);
 	friend void find(graph, char, int, int);
 

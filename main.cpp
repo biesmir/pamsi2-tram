@@ -11,30 +11,31 @@
 int main(){
 
 
-graph czy_dojade;
+graph map;
+std::string stop1, stop2;
 
-parsing(czy_dojade, "../Data/1.txt");
-parsing(czy_dojade, "../Data/4.txt");
-//parsing(czy_dojade, "../Data/0p.txt");
-parsing(czy_dojade, "../Data/2.txt");
-//parsing(czy_dojade, "../Data/0l.txt");
-parsing(czy_dojade, "../Data/5.txt");
-parsing(czy_dojade, "../Data/6.txt");
+parsall(map);
 
-//find(czy_dojade, 'b', 8, 16);
-czy_dojade.prepare_search();
+std::cout<<"Podaj przystanek początkowy: ";
+std::cin>>stop1;
+std::cout<<std::endl<<"Podaj przystanek końcowy: ";
+std::cin>>stop2;
+
+map.prepare_search();
+find_and_print(map, 'b', map.get_ID(stop1), map.get_ID(stop2));
+
 /*
 auto begin = std::chrono::high_resolution_clock::now();
 //uint32_t iterations =1;
 
-find(czy_dojade, 'b', rand()%70, rand()%70);
+find(map, 'b', rand()%70, rand()%70);
 auto end = std::chrono::high_resolution_clock::now();
 auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(end-begin).count();
 	std::cout << duration ;
 
 */
-	czy_dojade.prepare_search();
-find_and_print(czy_dojade, 'b', 8, 36);
+	map.prepare_search();
+
 
 	return 0;
 }

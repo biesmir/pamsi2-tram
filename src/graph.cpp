@@ -109,7 +109,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 			std::cout<<"Na przystanku: ";
 			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
-			time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+			//time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 			route.pop();
 			std::cout<<" wsiądź w tramwaj linii: ";
 
