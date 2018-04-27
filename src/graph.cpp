@@ -81,50 +81,88 @@ bool graph::add_connection(std::string _stop1, std::string _stop2, unsigned shor
 	return 1;
 }
 
-/*
+
 void find_and_print(graph map, char algoritm, int source, int end){
 	std::stack<int> route;
+	int i = 0;
+	int tmp;
+	int counter = 0;
+	int time=0;
 
 	switch(algoritm){
+
+	case 'd':	//depth first search
+			route = map.dfs(source,end);
+			break;
 
 	case 'b':	//breadth first search
 
 		route = map.bfs(source,end);
-
-		std::cout<<map.stops[route.top()]->get_name()<<" wsiądź w tramwaj linii: ";
-
-		for(int j=0; j < map.stops[route.top()]->get_number_of_connections() ;j++){
-
-			for(int i=0;i<35; i++)
-				map.stops[route.top()]->check_connection(i,)
-
-				while(!route.empty()){
-					std::cout<<map.stops[route.top()]->get_name()<<" ";
-					route.pop();
-				}
-
-		}
-		std::cout<<std::endl;
-		break;
-
-	case 'd':	//depth first search
-
-		route = map.dfs(source,end);
-
-		while(!route.empty()){
-			std::cout<<map.stops[route.top()]->get_name()<<" ";
-			route.pop();
-		}
-		std::cout<<std::endl;
 		break;
 
 	default:
 		std::cerr<<"błędna opcja"<<std::endl;
 		break;
-
 	}
+
+		tmp = map.stops[route.top()]->get_ID();
+
+			std::cout<<"Na przystanku: ";
+			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
+			time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+			route.pop();
+			std::cout<<" wsiądź w tramwaj linii: ";
+
+			while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
+				i++;
+			if(i==0)
+				std::cout<<"0p";
+			else if(i==34)
+				std::cout<<"0l";
+			else
+				std::cout<<i;
+
+			std::cout<<std::endl;
+
+
+
+			while(!route.empty()){
+				while(map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i)&& !route.empty()){
+					counter++;
+				tmp = map.stops[route.top()]->get_ID();
+				time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+				route.pop();
+
+				}
+				if(counter>4)
+					std::cout<<"przejedź "<<counter <<" przystanków"<<std::endl;
+				if(counter>1)
+					std::cout<<"przejedź "<<counter <<" przystanki"<<std::endl;
+				if(counter==1)
+					std::cout<<"przejedź "<<counter <<" przystanek"<<std::endl;
+
+				if(!route.empty()){
+					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiądź się w tramwaj linii: ";
+
+					i=0;
+					while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
+					i++;
+				if(i==0)
+					std::cout<<"0p";
+				else if(i==34)
+					std::cout<<"0l";
+				else std::cout<<i;
+				std::cout<<std::endl;
+				}
+			}
+
+
+std::cout<<"Przejazd do przystanku: "<<	map.stops[tmp]->get_name()<<" potrwa łącznie: "<<time<<" minut"<<std::endl;
+
+
+
 }
-*/
+
 
 void find(graph map, char algoritm, int source, int end){
 	std::stack<int> route;
@@ -135,29 +173,34 @@ void find(graph map, char algoritm, int source, int end){
 
 		route = map.bfs(source,end);
 
-						while(!route.empty()){
-					std::cout<<map.stops[route.top()]->get_name()<<" ";
-					route.pop();
-						}
-
-
-		std::cout<<std::endl;
 		break;
 
 	case 'd':	//depth first search
 
 		route = map.dfs(source,end);
-
-		while(!route.empty()){
-			std::cout<<map.stops[route.top()]->get_name()<<" ";
-			route.pop();
-		}
-		std::cout<<std::endl;
 		break;
 
 	default:
 		std::cerr<<"błędna opcja"<<std::endl;
 		break;
 
+	}
+
+
+	while(!route.empty()){
+std::cout<<map.stops[route.top()]->get_name()<<" ";
+route.pop();
+	}
+
+
+std::cout<<std::endl;
+
+}
+
+void graph::prepare_search(){
+	for(unsigned i =0; i< this->stops.size(); i++){
+		this->stops[i]->colour = 'w';
+		this->stops[i]->conn_from_parent = -2;
+		this->stops[i]->parent = NULL;
 	}
 }

@@ -12,6 +12,10 @@
 
 #include "graph.hh"
 #include "parsing.hh"
+#include <unistd.h>
+#include <ctime>
+#include <iostream>
+#include <chrono>
 
 
 #endif /* INC_MAIN_HH_ */
