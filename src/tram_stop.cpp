@@ -16,7 +16,7 @@ tram_stop::tram_stop(int _ID, std::string _name)
  name(_name),
  parent(NULL),
  colour('w'),
- last_connect(NULL)
+conn_from_parent(-2)
 {
 
 }
@@ -62,9 +62,9 @@ bool make_connection(unsigned short int _time, int _line,std::shared_ptr<tram_st
 }
 
 
-std::shared_ptr<connection> tram_stop::get_connection(int i){
-	return this->conn[i];
-}
+//std::shared_ptr<connection> tram_stop::get_connection(int i){
+	//return this->conn[i];
+//}
 
 int tram_stop::get_connection_ID(int i){
 	return this->conn[i].get_second_stop()->get_ID();

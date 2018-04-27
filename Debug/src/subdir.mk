@@ -4,6 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/a_star.cpp \
 ../src/bfs.cpp \
 ../src/connection.cpp \
 ../src/dfs.cpp \
@@ -13,6 +14,7 @@ CPP_SRCS += \
 ../src/tram_stop.cpp 
 
 OBJS += \
+./src/a_star.o \
 ./src/bfs.o \
 ./src/connection.o \
 ./src/dfs.o \
@@ -22,6 +24,7 @@ OBJS += \
 ./src/tram_stop.o 
 
 CPP_DEPS += \
+./src/a_star.d \
 ./src/bfs.d \
 ./src/connection.d \
 ./src/dfs.d \
