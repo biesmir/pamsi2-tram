@@ -69,28 +69,28 @@ return -1;
 }
 
 int parsall(graph & Graph){
-	parsing(czy_dojade, "../Data/1.txt");
-	parsing(czy_dojade, "../Data/4.txt");
-	parsing(czy_dojade, "../Data/0p.txt");
-	parsing(czy_dojade, "../Data/0l.txt");
-	parsing(czy_dojade, "../Data/2.txt");
-	parsing(czy_dojade, "../Data/3.txt");
-	parsing(czy_dojade, "../Data/5.txt");
-	parsing(czy_dojade, "../Data/6.txt");
-	parsing(czy_dojade, "../Data/7.txt");
-	parsing(czy_dojade, "../Data/8.txt");
-	parsing(czy_dojade, "../Data/9.txt");
-	parsing(czy_dojade, "../Data/10.txt");
-	parsing(czy_dojade, "../Data/11.txt");
-	parsing(czy_dojade, "../Data/14.txt");
-	parsing(czy_dojade, "../Data/15.txt");
-	parsing(czy_dojade, "../Data/17.txt");
-	parsing(czy_dojade, "../Data/20.txt");
-	parsing(czy_dojade, "../Data/23.txt");
-	parsing(czy_dojade, "../Data/24.txt");
-	parsing(czy_dojade, "../Data/31.txt");
-	parsing(czy_dojade, "../Data/32.txt");
-	parsing(czy_dojade, "../Data/33.txt");
+	parsing(Graph, "../Data/0l.txt");
+	parsing(Graph, "../Data/0p.txt");
+	parsing(Graph, "../Data/1.txt");
+	parsing(Graph, "../Data/2.txt");
+	parsing(Graph, "../Data/3.txt");
+	parsing(Graph, "../Data/4.txt");
+	parsing(Graph, "../Data/5.txt");
+	parsing(Graph, "../Data/6.txt");
+	parsing(Graph, "../Data/7.txt");
+	parsing(Graph, "../Data/8.txt");
+	parsing(Graph, "../Data/9.txt");
+	parsing(Graph, "../Data/10.txt");
+	parsing(Graph, "../Data/11.txt");
+	parsing(Graph, "../Data/14.txt");
+	parsing(Graph, "../Data/15.txt");
+	parsing(Graph, "../Data/17.txt");
+	parsing(Graph, "../Data/20.txt");
+	parsing(Graph, "../Data/23.txt");
+	parsing(Graph, "../Data/24.txt");
+	parsing(Graph, "../Data/31.txt");
+	parsing(Graph, "../Data/32.txt");
+	parsing(Graph, "../Data/33.txt");
 
 	return 1;
 }

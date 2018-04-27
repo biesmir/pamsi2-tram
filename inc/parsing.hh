@@ -17,6 +17,6 @@
 
 int parsing(graph & Graph, std::string file_name);
 
-int parsing(graph & Graph);
+int parsall(graph & Graph);
 
 #endif /* INC_PARSING_HH_ */

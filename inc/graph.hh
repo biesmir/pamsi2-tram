@@ -52,6 +52,7 @@ public:
 		for(unsigned int i = 0; i<this->stops.size() ;i++)
 			if(name == this->stops[i]->get_name())
 				return this->stops[i]->get_ID();
+		std::cerr<<"Błędna nazwa przystanku";
 		return 0;
 	}
 

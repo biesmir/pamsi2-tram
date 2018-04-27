@@ -130,15 +130,15 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				while(map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i)&& !route.empty()){
 					counter++;
 				tmp = map.stops[route.top()]->get_ID();
-				time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+			//	time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 				route.pop();
 
 				}
 				if(counter>4)
 					std::cout<<"przejedź "<<counter <<" przystanków"<<std::endl;
-				if(counter>1)
+				else if(counter>1)
 					std::cout<<"przejedź "<<counter <<" przystanki"<<std::endl;
-				if(counter==1)
+				else if(counter==1)
 					std::cout<<"przejedź "<<counter <<" przystanek"<<std::endl;
 
 				if(!route.empty()){
