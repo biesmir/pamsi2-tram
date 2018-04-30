@@ -69,12 +69,12 @@ return -1;
 }
 
 int parsall(graph & Graph){
-	parsing(Graph, "../Data/0l.txt");
-	parsing(Graph, "../Data/0p.txt");
 	parsing(Graph, "../Data/1.txt");
+	parsing(Graph, "../Data/4.txt");
+	parsing(Graph, "../Data/0p.txt");
+	parsing(Graph, "../Data/0l.txt");
 	parsing(Graph, "../Data/2.txt");
 	parsing(Graph, "../Data/3.txt");
-	parsing(Graph, "../Data/4.txt");
 	parsing(Graph, "../Data/5.txt");
 	parsing(Graph, "../Data/6.txt");
 	parsing(Graph, "../Data/7.txt");
