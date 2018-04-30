@@ -22,7 +22,7 @@ std::cout<<std::endl<<"Podaj przystanek końcowy: ";
 std::cin>>stop2;
 
 map.prepare_search();
-find_and_print(map, 'b', map.get_ID(stop1), map.get_ID(stop2));
+find_and_print(map, 'd', map.get_ID(stop1), map.get_ID(stop2));
 //find(map, 'd', map.get_ID(stop1), map.get_ID(stop2));
 /*
 auto begin = std::chrono::high_resolution_clock::now();

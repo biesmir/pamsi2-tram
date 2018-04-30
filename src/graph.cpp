@@ -109,7 +109,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 			std::cout<<"Na przystanku: ";
 			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
-			//time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+			time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 			route.pop();
 			std::cout<<" wsiądź w tramwaj linii: ";
 
@@ -130,7 +130,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				while(map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i)&& !route.empty()){
 					counter++;
 				tmp = map.stops[route.top()]->get_ID();
-			//	time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+				time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 				route.pop();
 
 				}
@@ -141,7 +141,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				else if(counter==1)
 					std::cout<<"przejedź "<<counter <<" przystanek"<<std::endl;
 
-				if(!route.empty()){
+				if(!route.empty() && route.top() != end){
 					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiądź się w tramwaj linii: ";
 
 					i=0;
@@ -154,6 +154,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				else std::cout<<i;
 				std::cout<<std::endl;
 				}
+				else break;
 			}
 
 

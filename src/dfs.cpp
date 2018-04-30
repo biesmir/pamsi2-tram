@@ -52,6 +52,7 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 				tmpSt.push(s);
 						this->stops[s]->colour = 'b';
 						this->stops[s]->parent = this->stops[u];
+						this->stops[s]->conn_from_parent= i;
 					//	sleep(1);
 			}
 
