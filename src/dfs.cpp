@@ -35,7 +35,7 @@ std::stack<int> graph::dfs(int _ID_source, int _ID_end){
 		u = tmpSt.top();
 		tmpSt.pop();
 		if(u==_ID_end){
-				std::cout<<"znaleziono"<<std::endl;
+				//std::cout<<"znaleziono"<<std::endl;
 				//s = tmpSt.top();
 				//tmpSt.push(u);
 

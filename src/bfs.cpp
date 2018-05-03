@@ -11,13 +11,18 @@
 
 
 std::stack<int> graph::bfs(int _ID_source, int _ID_end){
-
 	std::shared_ptr<tram_stop> tmp;
 	std::stack<int> route;
 
-	for(int i = 0; i < this->size-1; i++){
-		this->stops[i]->colour='w';
+	std::cout<<"Z: "<<this->stops[_ID_source]->get_name()<<std::endl;
+	std::cout<<"do "<<this->stops[_ID_end]->get_name()<<std::endl;
+
+	if(_ID_source == _ID_end){
+		std::cerr<<"Przystanek poczatkowy musi byc rozny od koncowego";
+	return route;
 	}
+
+
 	int u = _ID_source;
 	int s;
 	this->stops[u]->colour='b';

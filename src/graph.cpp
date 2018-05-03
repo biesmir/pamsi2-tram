@@ -63,6 +63,7 @@ bool graph::add_connection(int ID1, int ID2, unsigned short int _time, int _line
 void graph::all_stops(std::ostream& strm){
 	for(int i=0;i<this->size;i++)
 		strm<< this->stops[i]->get_name()<<std::endl;
+	strm<<this->stops.size()<<" przystankow"<<std::endl;
 }
 
 bool graph::add_connection(std::string _stop1, std::string _stop2, unsigned short int _time, int _line){
@@ -187,7 +188,7 @@ void find(graph map, char algoritm, int source, int end){
 
 	}
 
-
+/*
 	while(!route.empty()){
 std::cout<<map.stops[route.top()]->get_name()<<" ";
 route.pop();
@@ -195,7 +196,7 @@ route.pop();
 
 
 std::cout<<std::endl;
-
+*/
 }
 
 void graph::prepare_search(){

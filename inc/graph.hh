@@ -53,7 +53,7 @@ public:
 			if(name == this->stops[i]->get_name())
 				return this->stops[i]->get_ID();
 		std::cerr<<"Błędna nazwa przystanku";
-		return 0;
+		return -1;
 	}
 
 	friend void find_and_print(graph, char, int, int);
