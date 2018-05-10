@@ -44,12 +44,12 @@
  24 2 11403 Stalowa
 11403 Stalowa
  24 2 11401 Pereca
- 24 1 11405 pl. Srebrny
-11405 pl. Srebrny
+ 24 1 11405 pl.Srebrny
+11405 pl.Srebrny
  24 1 11403 Stalowa
  24 1 11601 Bzowa(CentrumZajezdnia)
 11601 Bzowa(CentrumZajezdnia)
- 24 1 11405 pl. Srebrny
+ 24 1 11405 pl.Srebrny
  24 1 11603 Hutmen
 11603 Hutmen
  24 1 11601 Bzowa(CentrumZajezdnia)
