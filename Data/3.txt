@@ -44,12 +44,12 @@
  3 1 10405 pl.Strzegomski(MuzeumWspó³czesne)
 10405 pl.Strzegomski(MuzeumWspó³czesne)
  3 1 10403 M³odychTechników
- 3 2 10407 ZACHODNIA(Stacja kolejowa)
-10407 ZACHODNIA(Stacja kolejowa)
+ 3 2 10407 ZACHODNIA(Stacjakolejowa)
+10407 ZACHODNIA(Stacjakolejowa)
  3 2 10405 pl.Strzegomski(MuzeumWspó³czesne)
  3 2 12201 NiedŸwiedzia
 12201 NiedŸwiedzia
- 3 2 10407 ZACHODNIA(Stacja kolejowa)
+ 3 2 10407 ZACHODNIA(Stacjakolejowa)
  3 1 12203 Ma³opanewska
 12203 Ma³opanewska
  3 1 12201 NiedŸwiedzia
