@@ -71,3 +71,6 @@ int tram_stop::get_connection_ID(int i){
 }
 
 
+double Sdistance(tram_stop stop1, tram_stop stop2){
+return sqrt( ((stop1.longitude + stop2.longitude ) * (stop1.longitude + stop2.longitude )) + ((stop1.latitude + stop2.latitude ) * (stop1.latitude + stop2.latitude ))  );
+}

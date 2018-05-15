@@ -11,7 +11,7 @@
 #include <iostream>
 #include <vector>
 #include <memory>
-
+#include <cmath>
 
 #include "connection.hh"
 
@@ -22,6 +22,8 @@ private:
 	const int ID;
 	const std::string name;
 	std::vector< connection > conn;
+	double latitude;
+	double longitude;
 
 public:
 	char colour;
@@ -65,9 +67,16 @@ int get_time(int i){
 	return this->conn[i].get_time();
 }
 
+void change_latitude(double _latitude){
+	this->latitude = _latitude;
+}
+
+void change_longitude(double _longitude){
+	this->longitude = _longitude;
+}
+
+friend double Sdistance(tram_stop,tram_stop);
+
 };
-
-
-
 
 #endif /* INC_TRAM_STOP_HH_ */
