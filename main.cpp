@@ -27,26 +27,27 @@ int main(){
 	while(1){
 	std::cin>>menu;
 	switch(menu){
-	case 'l':
-		map.all_stops(std::cout);
-		break;
 
-	case 'w':
-		do{
-		std::cout<<std::endl<<"Podaj przystanek początkowy: ";
-		std::cin>>stop1;
-		}while(map.get_ID(stop1) == -1);
+		case 'l':
+			map.all_stops(std::cout);
+			break;
 
-		do{
-			std::cout<<std::endl<<"Podaj przystanek końcowy: ";
-			std::cin>>stop2;
-		}while(map.get_ID(stop2) == -1);
+		case 'w':
+			do{
+				std::cout<<std::endl<<"Podaj przystanek początkowy: ";
+				std::cin>>stop1;
+			}while(map.get_ID(stop1) == -1);
 
-		map.prepare_search();
-		find_and_print(map, 'd', map.get_ID(stop1), map.get_ID(stop2));
-		break;
+			do{
+				std::cout<<std::endl<<"Podaj przystanek końcowy: ";
+				std::cin>>stop2;
+			}while(map.get_ID(stop2) == -1);
 
-	case 'z':
+			map.prepare_search();
+			find_and_print(map, search, map.get_ID(stop1), map.get_ID(stop2));
+			break;
+
+		case 'z':
 			std::cout<<"b - bfs"<<std::endl;
 			std::cout<<"d - dfs"<<std::endl;
 			std::cout<<"a - A*"<<std::endl;
@@ -54,12 +55,15 @@ int main(){
 			search = menu;
 			break;
 
-	case 'm':
+		case 'm':
 			std::cout<<"l - wyswietl liste przystankow"<<std::endl;
 			std::cout<<"w - wyszukaj trase"<<std::endl;
 			std::cout<<"z - zmien algorytm wyszukiwania"<<std::endl;
 			std::cout<<"m - wyswietl to menu"<<std::endl;
 			break;
+
+		default:
+			std::cerr<<"Błędna opcja"<<std::endl;
 	}
 }
 	/*
