@@ -20,9 +20,19 @@ bool graph::add_stop(std::string name){
 	return 1;
 }
 
+void add_coor(std::string name, double lat, double lon){
+	for(unsigned int i=0;i<this->stops.size();i++)  //szuka we wszystkich przystankach nazwe wywolanego
+			if(this->stops[i]->get_name()==name){
+				//dodaj wspolrzedne do przystanku
+				this->stops[i]->change_latitude(lat);
+				this->stops[i]->change_longitude(lon);
+			}
+
+}
+
 
 void graph::make_random_graph(int _size){
-	std::string city[]={"	Wadowice (MP)","    Wałbrzych (DŚ)","    Wałcz (ZP)","    Warka (MZ)","    Warszawa (MZ)","    Warta (ŁD)","    Wasilków (PL)","    Wąbrzeźno (KP)","    Wąchock (ŚK)","    Wągrowiec (WP)","    Wąsosz (DŚ)","    Wejherowo (PM)","    Węgliniec (DŚ)","    Węgorzewo (WM)","    Węgorzyno (ZP)","    Węgrów (MZ)","    Wiązów (DŚ)","    Wieleń (WP)","    Wielichowo (WP)","    Wieliczka (MP)","    Wieluń (ŁD)","    Wieruszów (ŁD)","    Więcbork (KP)","    Wilamowice (ŚL)","    Wisła (ŚL)","    Wiślica (ŚK)","    Witkowo (WP)","    Witnica (LS)","    Wleń (DŚ)","    Władysławowo (PM)","    Włocławek (KP)","    Włodawa (LB)",    "Włoszczowa (ŚK)"};
+	std::string city[]={"	Wadowice (MP)","    WaĹ‚brzych (DĹš)","    WaĹ‚cz (ZP)","    Warka (MZ)","    Warszawa (MZ)","    Warta (Ĺ�D)","    WasilkĂłw (PL)","    WÄ…brzeĹşno (KP)","    WÄ…chock (ĹšK)","    WÄ…growiec (WP)","    WÄ…sosz (DĹš)","    Wejherowo (PM)","    WÄ™gliniec (DĹš)","    WÄ™gorzewo (WM)","    WÄ™gorzyno (ZP)","    WÄ™grĂłw (MZ)","    WiÄ…zĂłw (DĹš)","    WieleĹ„ (WP)","    Wielichowo (WP)","    Wieliczka (MP)","    WieluĹ„ (Ĺ�D)","    WieruszĂłw (Ĺ�D)","    WiÄ™cbork (KP)","    Wilamowice (ĹšL)","    WisĹ‚a (ĹšL)","    WiĹ›lica (ĹšK)","    Witkowo (WP)","    Witnica (LS)","    WleĹ„ (DĹš)","    WĹ‚adysĹ‚awowo (PM)","    WĹ‚ocĹ‚awek (KP)","    WĹ‚odawa (LB)",    "WĹ‚oszczowa (ĹšK)"};
 	for(int i=0;i<_size;i++){
 		this->add_stop(city[i]);
 
@@ -102,7 +112,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 		break;
 
 	default:
-		std::cerr<<"błędna opcja"<<std::endl;
+		std::cerr<<"bĹ‚Ä™dna opcja"<<std::endl;
 		break;
 	}
 
@@ -112,7 +122,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
 			time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 			route.pop();
-			std::cout<<" wsiądź w tramwaj linii: ";
+			std::cout<<" wsiÄ…dĹş w tramwaj linii: ";
 
 			while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
 				i++;
@@ -136,14 +146,14 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 				}
 				if(counter>4)
-					std::cout<<"przejedź "<<counter <<" przystanków"<<std::endl;
+					std::cout<<"przejedĹş "<<counter <<" przystankĂłw"<<std::endl;
 				else if(counter>1)
-					std::cout<<"przejedź "<<counter <<" przystanki"<<std::endl;
+					std::cout<<"przejedĹş "<<counter <<" przystanki"<<std::endl;
 				else if(counter==1)
-					std::cout<<"przejedź "<<counter <<" przystanek"<<std::endl;
+					std::cout<<"przejedĹş "<<counter <<" przystanek"<<std::endl;
 
 				if(!route.empty() && route.top() != end){
-					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiądź się w tramwaj linii: ";
+					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiÄ…dĹş siÄ™ w tramwaj linii: ";
 
 					i=0;
 					while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
@@ -159,7 +169,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 			}
 
 
-std::cout<<"Przejazd do przystanku: "<<	map.stops[tmp]->get_name()<<" potrwa łącznie: "<<time<<" minut"<<std::endl;
+std::cout<<"Przejazd do przystanku: "<<	map.stops[tmp]->get_name()<<" potrwa Ĺ‚Ä…cznie: "<<time<<" minut"<<std::endl;
 
 
 
@@ -183,7 +193,7 @@ void find(graph map, char algoritm, int source, int end){
 		break;
 
 	default:
-		std::cerr<<"błędna opcja"<<std::endl;
+		std::cerr<<"bĹ‚Ä™dna opcja"<<std::endl;
 		break;
 
 	}

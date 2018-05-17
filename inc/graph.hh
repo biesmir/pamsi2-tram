@@ -25,6 +25,7 @@ private:
 public:
 
 	bool add_stop(std::string name);
+	void add_coor(std::string name, double lat, double lon);
 	void add_stop(tram_stop tram);
 
 	bool add_connection(int ID1, int ID2, unsigned short int time, int line);

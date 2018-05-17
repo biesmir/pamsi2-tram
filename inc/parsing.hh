@@ -19,4 +19,6 @@ int parsing(graph & Graph, std::string file_name);
 
 int parsall(graph & Graph);
 
+int load_coor(graph & Graph);
+
 #endif /* INC_PARSING_HH_ */

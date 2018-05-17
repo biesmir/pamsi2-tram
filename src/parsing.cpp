@@ -95,3 +95,28 @@ int parsall(graph & Graph){
 	return 1;
 }
 
+int load_coor(graph & Graph)
+{
+	ifstream plik;
+	plik.open("stops.txt");
+
+	if(plik.is_open())
+		{
+		    string word, line;
+		    double lat,lon;
+		    getline(plik,line); //pierwsz linia niewazna
+
+		    while(plik>>word)
+		        {
+		    	plik >> lat;
+		    	plik >> lon;
+		    	Graph.add_coor(word,lat,lon);   //dodaj wspolrzedne do wczytanego przystanku, jezeli istnieje
+		        }
+		}
+	else
+	    {
+			cout<<"Nie udalo sie wczytac z pliku";
+	    }
+	plik.close();
+	return 1;
+}
