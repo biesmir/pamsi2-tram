@@ -17,6 +17,7 @@ int main(){
 	std::string stop1, stop2;
 	int first, second;
 	parsall(map);
+	load_coor(map);
 	//map.all_stops(std::cout);
 
 	std::cout<<"l - wyswietl liste przystankow"<<std::endl;

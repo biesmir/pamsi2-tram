@@ -8,12 +8,12 @@
 #include "../inc/graph.hh"
 #include <stack>
 
-
+/*
 std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 
 	std::shared_ptr<tram_stop> tmp;
 	std::stack<int> route;
-	std::queue<int> Q;
+	std::priority_queue<int> Q;
 	Q.push(_ID_source);
 
 	int u = _ID_source;
@@ -73,7 +73,7 @@ while( tmp->parent != NULL){
 
 
 	return route;
-}
+}*/
 
 
 

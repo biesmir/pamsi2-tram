@@ -14,6 +14,8 @@
 tram_stop::tram_stop(int _ID, std::string _name)
 :ID(_ID),
  name(_name),
+ latitude(0),
+ longitude(0),
  parent(NULL),
  colour('w'),
 conn_from_parent(-2)
@@ -71,6 +73,6 @@ int tram_stop::get_connection_ID(int i){
 }
 
 
-double Sdistance(tram_stop stop1, tram_stop stop2){
-return sqrt( ((stop1.longitude + stop2.longitude ) * (stop1.longitude + stop2.longitude )) + ((stop1.latitude + stop2.latitude ) * (stop1.latitude + stop2.latitude ))  );
+double Sdistance(std::shared_ptr<tram_stop >stop1, std::shared_ptr<tram_stop >stop2){
+return sqrt( ((stop1->longitude + stop2->longitude ) * (stop1->longitude + stop2->longitude )) + ((stop1->latitude + stop2->latitude ) * (stop1->latitude + stop2->latitude ))  );
 }

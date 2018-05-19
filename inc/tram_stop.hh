@@ -26,8 +26,9 @@ private:
 	double longitude;
 
 public:
-	char colour;
+
 	std::shared_ptr<tram_stop> parent;
+	char colour;
 	int conn_from_parent;
 
  tram_stop(int ID, std::string _name);
@@ -75,7 +76,7 @@ void change_longitude(double _longitude){
 	this->longitude = _longitude;
 }
 
-friend double Sdistance(tram_stop,tram_stop);
+friend double Sdistance(std::shared_ptr<tram_stop >stop1, std::shared_ptr<tram_stop >stop2);
 
 };
 

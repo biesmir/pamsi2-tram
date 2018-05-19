@@ -20,7 +20,7 @@ bool graph::add_stop(std::string name){
 	return 1;
 }
 
-void add_coor(std::string name, double lat, double lon){
+void graph::add_coor(std::string name, double lat, double lon){
 	for(unsigned int i=0;i<this->stops.size();i++)  //szuka we wszystkich przystankach nazwe wywolanego
 			if(this->stops[i]->get_name()==name){
 				//dodaj wspolrzedne do przystanku
@@ -157,7 +157,8 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 					i=0;
 					while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
-					i++;
+						i++;
+
 				if(i==0)
 					std::cout<<"0p";
 				else if(i==34)
@@ -170,7 +171,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 
 std::cout<<"Przejazd do przystanku: "<<	map.stops[tmp]->get_name()<<" potrwa Ĺ‚Ä…cznie: "<<time<<" minut"<<std::endl;
-
+std::cout<<"dystans katowy to: "<<std::fixed<<Sdistance(map.stops[source], map.stops[end])<<std::endl;
 
 
 }
