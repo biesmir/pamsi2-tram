@@ -111,6 +111,11 @@ void find_and_print(graph map, char algoritm, int source, int end){
 		route = map.bfs(source,end);
 		break;
 
+	case 'a':
+
+		route = map.a_star(source,end);
+		break;
+
 	default:
 		std::cerr<<"bĹ‚Ä™dna opcja"<<std::endl;
 		break;

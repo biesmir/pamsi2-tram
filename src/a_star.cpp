@@ -8,27 +8,41 @@
 #include "../inc/graph.hh"
 #include <stack>
 
-/*
-std::stack<int> graph::A_star(int _ID_source, int _ID_end){
+int heuristic(const std::shared_ptr<tram_stop> stop1, const std::shared_ptr<tram_stop> stop2){
+	return 394 * int(Sdistance(stop1, stop2));
+}
 
+bool operator < (const std::shared_ptr<tram_stop> stop1, const std::shared_ptr<tram_stop> stop2){
+	extern std::shared_ptr<tram_stop> destination;
+	if(heuristic(stop1, destination) < heuristic(stop2, destination))
+			return 1;
+	else return 0;
+
+}
+
+
+
+std::stack<int> graph::A_star(int _ID_source, int _ID_end){
+	extern std::shared_ptr<tram_stop> destination;
+	destination = this->stops[_ID_end];
 	std::shared_ptr<tram_stop> tmp;
 	std::stack<int> route;
-	std::priority_queue<int> Q;
-	Q.push(_ID_source);
+	std::priority_queue< std::shared_ptr<tram_stop > > Q;
+	Q.push( this->stops[_ID_source]);
 
-	int u = _ID_source;
+	std::shared_ptr<tram_stop > u = this->stops[_ID_source];
 	int s;
 
 	bool end=false;
 
-	this->stops[u]->colour='b';
+	u->colour='b';
 
 
 
 
 	while(!Q.empty() && !end){
 
-		u = Q.front();
+		u = Q.top();
 		Q.pop();
 
 		for(int i=0;i<this->stops[u]->get_number_of_connections();i++){
@@ -63,7 +77,7 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 
 tmp = this->stops[s];
 
-route.push(tmp->get_ID());
+
 
 while( tmp->parent != NULL){
 		tmp = tmp -> parent;
@@ -73,7 +87,7 @@ while( tmp->parent != NULL){
 
 
 	return route;
-}*/
+}
 
 
 
