@@ -98,7 +98,7 @@ int parsall(graph & Graph){
 int load_coor(graph & Graph)
 {
 	ifstream plik;
-	plik.open("stops.txt");
+	plik.open("../Data/stops.txt");
 
 	if(plik.is_open())
 		{

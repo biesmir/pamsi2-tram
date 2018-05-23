@@ -74,5 +74,5 @@ int tram_stop::get_connection_ID(int i){
 
 
 double Sdistance(std::shared_ptr<tram_stop >stop1, std::shared_ptr<tram_stop >stop2){
-return sqrt( ((stop1->longitude + stop2->longitude ) * (stop1->longitude + stop2->longitude )) + ((stop1->latitude + stop2->latitude ) * (stop1->latitude + stop2->latitude ))  );
+return sqrt( ((stop1->longitude - stop2->longitude ) * (stop1->longitude - stop2->longitude )) + ((stop1->latitude - stop2->latitude ) * (stop1->latitude - stop2->latitude ))  );
 }
