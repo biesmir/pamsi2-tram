@@ -8,6 +8,8 @@
 
 #include "./inc/main.hh"
 
+std::shared_ptr<tram_stop> destination;
+
 int main(){
 	char menu;
 	char search = 'b';
