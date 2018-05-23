@@ -72,7 +72,7 @@ bool graph::add_connection(int ID1, int ID2, unsigned short int _time, int _line
 
 void graph::all_stops(std::ostream& strm){
 	for(int i=0;i<this->size;i++)
-		strm<< this->stops[i]->get_name()<<std::endl;
+		strm<<this->stops[i]->get_ID()<< this->stops[i]->get_name()<<std::endl;
 	strm<<this->stops.size()<<" przystankow"<<std::endl;
 }
 
@@ -98,7 +98,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 	int i = 0;
 	int tmp;
 	int counter = 0;
-	int time=0;
+	int time = 0;
 
 	switch(algoritm){
 
@@ -125,7 +125,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 			std::cout<<"Na przystanku: ";
 			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
-			time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+			//time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 			route.pop();
 			std::cout<<" wsiÄ…dĹş w tramwaj linii: ";
 
@@ -146,7 +146,10 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				while(map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i)&& !route.empty()){
 					counter++;
 				tmp = map.stops[route.top()]->get_ID();
+
+
 				time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
+
 				route.pop();
 
 				}
@@ -156,6 +159,8 @@ void find_and_print(graph map, char algoritm, int source, int end){
 					std::cout<<"przejedĹş "<<counter <<" przystanki"<<std::endl;
 				else if(counter==1)
 					std::cout<<"przejedĹş "<<counter <<" przystanek"<<std::endl;
+
+				counter = 0;
 
 				if(!route.empty() && route.top() != end){
 					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiÄ…dĹş siÄ™ w tramwaj linii: ";
@@ -175,7 +180,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 			}
 
 
-std::cout<<"Przejazd do przystanku: "<<	map.stops[tmp]->get_name()<<" potrwa Ĺ‚Ä…cznie: "<<time<<" minut"<<std::endl;
+std::cout<<"Przejazd do przystanku: "<<	map.stops[end]->get_name()<<" potrwa Ĺ‚Ä…cznie: "<<time<<" minut"<<std::endl;
 std::cout<<"dystans katowy to: "<<std::fixed<<Sdistance(map.stops[source], map.stops[end])<<std::endl;
 
 

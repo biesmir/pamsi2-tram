@@ -77,7 +77,7 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 
 tmp = s;
 
-
+route.push(tmp->get_ID());
 
 while( tmp->parent != NULL){
 		tmp = tmp -> parent;
