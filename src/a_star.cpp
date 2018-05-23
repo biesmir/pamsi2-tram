@@ -37,18 +37,15 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 
 	u->colour='b';
 
-
-
-
 	while(!Q.empty() && !end){
 
 		u = Q.top();
 		Q.pop();
 
-		for(int i=0;i< u->get_number_of_connections();i++){
-			s = this->stops [u->get_connection_ID(i)];
+		for(int i=0;i<u->get_number_of_connections();i++){
+			s=this->stops[u->get_connection_ID(i)];
 
-			if(s == this->stops[_ID_end]){
+			if(s== this->stops[_ID_end]){
 
 					s->parent = u;
 
@@ -88,6 +85,3 @@ while( tmp->parent != NULL){
 
 	return route;
 }
-
-
-

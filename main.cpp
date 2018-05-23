@@ -21,13 +21,15 @@ int main(){
 	parsall(map);
 	load_coor(map);
 	//map.all_stops(std::cout);
+    bool end=false;
+
 
 	std::cout<<"l - wyswietl liste przystankow"<<std::endl;
 	std::cout<<"w - wyszukaj trase"<<std::endl;
 	std::cout<<"z - zmien algorytm wyszukiwania"<<std::endl;
 	std::cout<<"m - wyswietl to menu"<<std::endl;
 
-	while(1){
+	while(!end){
 	std::cin>>menu;
 	switch(menu){
 
@@ -63,6 +65,10 @@ int main(){
 			std::cout<<"w - wyszukaj trase"<<std::endl;
 			std::cout<<"z - zmien algorytm wyszukiwania"<<std::endl;
 			std::cout<<"m - wyswietl to menu"<<std::endl;
+			break;
+
+		case 'e':
+			end=1;
 			break;
 
 		default:
