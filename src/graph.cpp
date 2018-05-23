@@ -113,7 +113,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 
 	case 'a':
 
-		route = map.a_star(source,end);
+		route = map.A_star(source,end);
 		break;
 
 	default:

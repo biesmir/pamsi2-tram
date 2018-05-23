@@ -31,7 +31,7 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 	Q.push( this->stops[_ID_source]);
 
 	std::shared_ptr<tram_stop > u = this->stops[_ID_source];
-	int s;
+	std::shared_ptr<tram_stop > s;
 
 	bool end=false;
 
@@ -45,27 +45,27 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 		u = Q.top();
 		Q.pop();
 
-		for(int i=0;i<this->stops[u]->get_number_of_connections();i++){
-			s=this->stops[u]->get_connection_ID(i);
+		for(int i=0;i< u->get_number_of_connections();i++){
+			s = this->stops [u->get_connection_ID(i)];
 
-			if(s==_ID_end){
+			if(s == this->stops[_ID_end]){
 
-					this->stops[s]->parent = this->stops[u];
+					s->parent = u;
 
 					end=true;
 
 					break;
 			}
-			if(this->stops[s]->colour =='w'){
+			if(s->colour =='w'){
 						Q.push(s);
 
-						this->stops[s]->colour = 'b';
+						s->colour = 'b';
 
 
 
-						this->stops[s]->parent = this->stops[u];
+						s->parent = u;
 
-						this->stops[s]->conn_from_parent= i;
+						s->conn_from_parent= i;
 
 
 			}
@@ -75,7 +75,7 @@ std::stack<int> graph::A_star(int _ID_source, int _ID_end){
 
 	}
 
-tmp = this->stops[s];
+tmp = s;
 
 
 
