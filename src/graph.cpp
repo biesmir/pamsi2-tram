@@ -124,7 +124,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 		tmp = map.stops[route.top()]->get_ID();
 
 			std::cout<<"Na przystanku: ";
-			std::cout<< map.stops[route.top()]->get_name() <<std::endl;
+			std::cout<< map.stops[tmp]->get_name() <<std::endl;
 			//time += map.stops[tmp]->get_time( map.stops[route.top()]->conn_from_parent);
 			route.pop();
 			std::cout<<" wsiÄ…dĹş w tramwaj linii: ";
@@ -163,7 +163,7 @@ void find_and_print(graph map, char algoritm, int source, int end){
 				counter = 0;
 
 				if(!route.empty() && route.top() != end){
-					std::cout<<"Na przystanku: "<<map.stops[route.top()]->get_name()<<" przesiÄ…dĹş siÄ™ w tramwaj linii: ";
+					std::cout<<"Na przystanku: "<<map.stops[tmp]->get_name()<<" przesiÄ…dĹş siÄ™ w tramwaj linii: ";
 
 					i=0;
 					while(!map.stops[tmp]->check_connection( map.stops[route.top()]->conn_from_parent, i))
